@@ -12,8 +12,8 @@ permalink: /publications/
       {% assign publications = site.publications | sort: 'year' | reverse %}
       {% for publication in publications %}
       <div class="col-lg-4 col-md-6 mb-3 mt-3 d-flex flex-column">
-        <a href="{{site.baseurl}}{{ publication.url }}" class="d-flex flex-column bg-white rounded-1 box-shadow border text-inherit no-underline flex-1" style="height:100%">
-          <h3 class="h4 px-3 pt-3">* {{ publication.title }}</h3>
+        <a href="{{ publication.url | prepend: site.baseurl }}" class="d-flex flex-column bg-white rounded-1 box-shadow border text-inherit no-underline flex-1" style="height:100%">
+          <h4 class="h4 px-3 pt-3">* {{ publication.title }}, {{ publication.conference }}, {{publication.year}}</h4>
           <p class="text-gray lh-condensed px-3 pb-3">{{ publication.description }}</p>
           <div class="text-gray-light pl-3 pr-2 py-2 bg-gray-light border-top" style="margin-top: auto; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
           </div>
