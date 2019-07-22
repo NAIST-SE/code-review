@@ -24,11 +24,26 @@ url: "https://code-review-github.io" # the base hostname & protocol for your sit
 twitter_username: selabnaist
 github_username:  NAIST-SE
 
+
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publications
+
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

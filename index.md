@@ -7,6 +7,6 @@ layout: home
 
 # Code Review Papers
 
-Many kinkd of code review papers are published.
+Many kinkd of code review publications are published.
 
-This website introduces awesome code review papers.
+This website introduces awesome code review publications.
