@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Conferences and Journal
-permalink: /submissions/
 ---
 
 # Submissions
