@@ -30,14 +30,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-defaults:
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: publications
-
-
 # Build settings
 markdown: kramdown
 theme: minima
