@@ -3,33 +3,32 @@ layout: page
 title: Papers
 permalink: /publications/
 ---
-
-<div class="bg-gray-light">
-  <div class="container-lg px-3 page-section">
-    <h1 class="alt-h2">{{ page.title }}</h1>
-
-    <div class="d-md-flex flex-wrap gutter flex-auto">
-      {% assign publications = site.publications | sort: 'year' | reverse %}
-      {% for publication in publications %}
-      <div class="col-lg-4 col-md-6 mb-3 mt-3 d-flex flex-column">
-        <a href="{{ publication.url | prepend: site.baseurl }}" class="d-flex flex-column bg-white rounded-1 box-shadow border text-inherit no-underline flex-1" style="height:100%">
-          <h4 class="h4 px-3 pt-3">* {{ publication.title }}, {{ publication.conference }}, {{publication.year}}</h4>
-          <p class="text-gray lh-condensed px-3 pb-3">{{ publication.description }}</p>
-          <div class="text-gray-light pl-3 pr-2 py-2 bg-gray-light border-top" style="margin-top: auto; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
-          </div>
-        </a>
-      </div>
-      {% endfor %}
-
-      <div class="col-lg-4 col-md-6 mb-3 mt-3 d-flex flex-column">
-        <a href="https://github.com/NAIST-SE/code-review.github.io/blob/master/CONTRIBUTING.md#adding-your-PAPER" class="d-flex flex-column flex-1 rounded-1 border border-dashed border-gray-dark link-gray no-underline">
-          <h3 class="h4 px-3 pt-3">
-            {% octicon plus class:"v-align-text-bottom" %}
-            Share your paper
-          </h3>
-          <p class="lh-condensed px-3 pb-3">Is your paper ready for prime time? Submit it to the paper directory.</p>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+<table id="allPapers">
+  <thead><th>Year</th><th>Title</th><th>Authors</th><th>Conference</th></thead><tbody>
+  {% assign publicationsByYear = site.publications | sort: "year" | group_by: "year" %}
+  {% for year in publicationsByYear reversed %}
+  {% for publication in year.items %}
+  <tr>
+    <td>{{ publication.year }}</td>
+    <td><a href="{{ publication.url | prepend: site.baseurl }}">{{publication.title}}</a>
+      <!-- <span class="externallinks">
+        &nbsp;<a href='http://scholar.google.com/scholar?q={{ publication.title }}' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+        <a href='https://www.semanticscholar.org/search?q={{ publication.title }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+        <a href='http://academic.microsoft.com/#/search?iq={{ publication.title | uri_escape }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+      </span> -->
+    </td>
+    <td>{{ publication.authors }}</td>
+    <td>{{ publication.conference }}</td>
+  </tr>
+  {% endfor %}
+  {% endfor %}
+  <tr>
+<td colspan="4">
+    <a href="https://github.com/NAIST-SE/code-review.github.io/blob/master/CONTRIBUTING.md#adding-your-PAPER" class="d-flex flex-column flex-1 rounded-1 border border-dashed border-gray-dark link-gray no-underline">
+      {% octicon plus class:"v-align-text-bottom" %}
+      Share your paper
+    <p class="lh-condensed px-3 pb-3">Is your paper ready for prime time? Submit it to the paper directory.</p>
+  </a>
+</td>
+  </tr>
+</tbody></table>
