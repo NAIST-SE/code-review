@@ -5,7 +5,7 @@
 layout: default
 ---
 
-# Code Review Papers
+# About
 
 Many kinkd of code review publications are published.
 
