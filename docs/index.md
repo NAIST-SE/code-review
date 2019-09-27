@@ -7,7 +7,7 @@ layout: default
 
 # About
 
-In this page, we aim to summarize how Code Review research has evolved into its currentstate over the last decade. Our vigorous systematic study revolves around four research questions to uncover changes into the targetofcontributionsandmethodologies,replicabilityof existing studies and the evolution of CRterminologies. From a collection of 7,266papers from the top software engineering venues, we generate visual maps for the final 148 collected papers from 53 conferences, 16journals, and 79 snowball papers.
+This catalog of papers are the result of a systematic study that was aimed to summarize how Code Review research has evolved into its current state over the last decade. The collection includes descriptions for the 148 collected papers from 53 conferences, 16 journals, and 79 snowball papers.
 
 # Pages
 * [Code Review Papers](https://naist-se.github.io/code-review/publications/)
