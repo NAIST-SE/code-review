@@ -1,0 +1,76 @@
+No,Title,word,topic,Type,Year,Conference
+1,Advances in software inspections,software inspection,enhance the use of the inspection,Mixed,1986,TSE
+2,A Two-Person Inspection Method to Improve Programming Productivity,two-person inspection,investigate two-person inspection effect,Mixed,1989,TSE
+3,Scrutiny: A collaborative inspection and review system,inspection and review,design a collaborative system,Mixed,1993,ESEC
+4,Does Every Inspection Need a Meeting,inspection,find the benefit of inspection meetings,Mixed,1993,FSE
+5,CAIS: Collaborative asynchronous inspection of software,software inspection,design collaborative asynchronous inspection,Q1+Q2,1994,FSE
+6,Understanding the effects of developer activities on inspection interval,software inspection,understand variation in inspection interval,Mixed,1997,ICSE
+7,"A case study of distributed, asynchronous software inspection",software inspection,industrial study using distributed inspection,Mixed,1997,ICSE
+8,An Experiment to Assess the Cost-Benefits of Code Inspections in Large Scale Software Development,code inspection,cost benefit,Mixed,1997,TSE
+9,Does every inspection really need a meeting?,software review,assess cost and effectiveness of inspection meeting,Mixed,1998,EMSE
+10,Understanding the Sources of Variation in Software Inspections,software inspection,understand the sources of variation,Mixed,1998,TOSEM
+11,A comparison of computer support systems for software inspection,software inspection,test existing inspection tools,Mixed,1999,ASE
+12,Object-oriented inspection in the face of delocalisation,software inspection,key features to exaggerate delocalisation,Mixed,2000,ICSE
+13,An encompassing life cycle centric survey of software inspection,software inspection,"provide concepts,relations and life-cycle perspective",Mixed,2000,JSS
+14,The Effectiveness of Software Development Technical Reviews: A Behaviorally Motivated Program of Research,software review,outcomes of software review,Mixed,2000,TSE
+15,A controlled experiment to assess the effectiveness of inspection meetings,software inspection,assess the effectiveness of inspection meeting,Mixed,2001,METRICS
+16,Usage-Based ReadingAn Experiment to Guide Reviewers with Use Cases,software inspection,reading method,Q1(Mixed),2001,IST
+17,Reducing inspection interval in large-scale software development,code inspection,reduce inspection interval,Mixed,2002,TSE
+18,Two case studies of open source soft- ware development: Apache and Mozilla,code change,software development,Q1,2002,TOSEM
+19,Practical code inspection techniques for object-oriented systems: an experimental comparison,code inspection,development and evaluation,Mixed,2003,IEEE Software
+20,The development and evalu- ation of three diverse techniques for object-oriented code inspection,code inspection,develop and evaluate OO code inspection,Q1,2003,TSE
+21,Peer reviews in real life-motivators and demotivators,peer review,motivatoe and demotivators,Q2,2005,Quality Software
+22,Open source software peer review practices: a case study of the apache server,peer review,understan open source peer review,Q1,2008,ICSE
+23,Small patches get in!,patch,factors affect the acceptance of patches,Q1,2008,MSR
+24,The role of patch review in software evolution: an analysis of the mozilla firefo,patch review,examine the develoment process,Mixed,2009,IWPSE-Evol
+25,The Impact of Design and Code Reviews on Software Quality: An Empirical Study Based on PSP Data,code review,impact on software quality,Q1,2009,TSE
+26,What types of defects are really discovered in code reviews?,code review,types of defects,Q1(Mixed),2009,TSE
+27,An Approach to Improving Software Inspections Performance,software inspection,improve performance,Q1,2010,ICSM
+28,Peer code review in open source communitiesusing reviewboard,peer code review,evaluate review tool in OSS,Mixed,2012,Workshop on Evaluation and usability of programming languages and tools
+29,The secret life of patches: A firefox case study,code review,patch life cycle,Q1+Q2,2012,WCRE
+30,Impression formation in online peer production: activity traces and personal profiles in github,peer production,,Mixed,2013,CSCW
+31,Knowledge creation in information systems development teams: The role of pair programming and peer code review,peer code review,knowledge creation,Mixed,2013,ECIS
+32,The influence of non-technical factors on code review,code review,non-technical factor,Q1,2013,WCRE
+33,Impact of peer code review on peer impres- sion formation: A survey,peer code review,benefit of code review in OSS,Q2,2013,ESEM
+34,Impact of developer reputation on code review outcomes in oss projects: An empirical investigation,code review,developer reputation,Q1,2014,ESEM
+35,An empirical investigation of socio-technical code review metrics and security vulnerabilities,code review,socio-technical,Q1,2014,Workshop on Social Software Engineering
+36,Revisiting Linus’s law: benefits and challenges of open source software peer review,peer review,benefits and challenges ,Mixed,2015,Journal Human-Computer Studies
+37,"Do code review practices impact design quality? a case study of the qt, vtk, and itk projects",code review,design quality impact,Q1,2015,SANER
+38,Who should review my code? a file location-based code-reviewer recommendation approach for modern code review,modern code review,reviewer recommendation,Q1,2015,SANER
+39,Would Static Analysis Tools Help Developers with Code Reviews ?,code review,static analysis tool,Q1,2015,SANER
+40,On the need for a new generation of code review tools,code review,investigate the need for new review tool,Mixed,2016,PROFES
+41,A faceted classifi- cation scheme for change-based industrial code review processes,code review,classification of industrial review,Mixed,2016,QRS
+42,Peer Review Social Network (PeRSoN) in Open Source Projects,peer review,social network in OSS,Q1,2016,IEICE
+43,The Impact of a Low Level of Agreement Among Reviewers in a Code Review Process,code review,reviewer decision,Q1(Mixed),2016,OSS
+44,The Choice of Code Review Process: A Survey on the State of the Practice,code review,choice of code review process,Q2,2017,PROFES
+45,Using Metrics to Track Code Review Performance,code review, , ,2017,EASE
+46,Software reviews: the state of the practice,software review,,,2003,IEEE Software
+47,Comtemporary peer review in action: Lessons from open source development,peer review,,,2012,IEEE Software
+48,Software inspections: An effective verication process,inspection,,,1989,
+49,Design and code inspections to reduce errors in program development,code inspection,,,1976,IBM System
+50,Testing the value of checklists in code inspections,code inspection,,,2008,IEEE Software
+51,Survey of software inspection research,inspection,,,2009,The open software engineering journal
+52,Open Source Peer Review Lessons and Recommendations for Closed Source,peer review,,,2012,IEEE Software
+53,A practical approach for quality-driven inspections,inspection,,,2007,IEEE Software
+54,Overcoming the nahsyndrome for inspection deployment,inspection,,,1998,ICSE
+55,State of the art: Software inspections after 25 years,inspection,,,2002,"software testing, vertification and reliability"
+56,Experience with inspection in Ultralarge-Scale development,inspection,,,1991,IEEE Software
+57,Coredevrec: Automatic core member recommendations for contribution evaluation,pull request,,,2015,Journal of Computer Science and Technology
+58,Software inspections and the industrial production of software,inspection,,,1984,In proceedings of the symposium on Software validation
+59,Icicle: groupware for code inspection,inspection,,,1990,ACM conference on Computer-supported cooperatice work
+60,Inspecting the history of inspections: An example of evidence-based technology diffusion,inspection,,,2008,IEEE Software
+61,Systematic object-oriented inspection anempirical study,inspection,,,2001,ICSE
+62,Evaluating software inspection cognition levels using bloom's taxonomy,inspection,,,2009,CSEET
+63,Analyzing individual performance of source code review using reviewers' eye movement,code review,,,2006,ETRA
+64,Does the mode code inspection have value,code reivew,,,2001,ICSM
+65,A security perspective on code review: the case of the chromium,code review,,,2016,SCAM
+66,Active design reviews: Principles and practices,review,,,1987,IEEE Software
+67,"Reviews, walkthroughs and Inspections",technical review,,,1984,TSE
+68,The role of inspections in Software Quality Assurance,software inspection,,,2003,TSE
+69,Using group support systems for software inspections,software inspection,,,2001,IEEE Software
+70,A family of experiments to investigate the effects of groupware for software inspection,software inspection,,,2006,ASE
+71,Tool support for geographically dispersed inspection teams,software inspection,,,2003,SPIP
+72,Supporting inspections with an eletronic meeting system,software inspection,,,1997,JMIS
+73,"Computer-Mediated Group support, Anonymity, and the Software Inspections",software inspection,,,2003,TSE
+74,who should review this pull request: reviewer recommendation to expedite crowd collaboration,pull request,,,2014,APSEC
+75,Behind Linus's law: a preliminary analuysis of open source software peer review practices in Mozilla and Python,peer review,,,2011,CTS

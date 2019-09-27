@@ -1,0 +1,70 @@
+No,Title,word,topic,Type,Year,Conference
+p01,Modern Code Review: A Case Study at Google,modern code review, investigate MCR in Google,Survey,2018,ICSE
+p02,Was My Contribution Fairly Reviewed?: A Framework to Study the Perception of Fairness in Modern Code Reviews,modern code review,fair of contribution in MCR,Survey,2018,ICSE
+p03,Studying Pull Request Merges: A Case Study of Shopify's Active Merchant,pull request,mege of pull request in commercial project,Quantitative + Survey,2018,ICSE
+p04,When Testing Meets Code Review: Why and How Developers Review Tests,code review,test in code review,Quantitative + Survey,2018,ICSE
+p05,Decoding the Representation of Code in the Brain: An fMRI Study of Code Review and Expertise,code review,examin code comprehension/review ,Quantitative + Qualitative,2017,ICSE
+p06,Revisiting Code Ownership and Its Relationship with Software Quality in the Scope of Modern Code Review,modern code review,relationship between ownership and quality,Quantitative,2016,ICSE
+p07,Work Practices and Challenges in Pull-based Development: The Integrator's Perspective,pull request,contributor's perspective on pull-based,Survey,2016,ICSE
+p08,Teaching Code Review Management Using Branch Based Workflows,code review,teach students to conduct reviews,Survey,2016,ICSE
+p09,Code Review Quality: How Developers See It,code review,investigate how developers perceive quality,Survey,2016,ICSE
+p10,A Study of the Quality-impacting Practices of Modern Code Review at Sony Mobile,modern code review,impact that review has on proprietary system,Quantitative + Survey,2016,ICSE
+p11,CoRReCT: Code Reviewer Recommendation in GitHub Based on Cross-project and Technology Experience,code review/pull request,reviewer recommendation,Quantitative + Qualitative,2016,ICSE
+p12,Interactive Code Review for Systematic Changes,code review,propose an approach for inspecting systematic changes,Quantitative + Survey,2015,ICSE
+p13,Work Practices and Challenges in Pull-based Development: The contributor's Perspective (NEW),pull request,investigate integratir's perspective in pull-based,Survey,2015,ICSE
+p14,Helping Developers Help Themselves: Automatic Decomposition of Code Review Changesets,code review,propose an technique for decomposing changesets,Quantitative + Survey,2015,ICSE
+p15,An Exploratory Study of the Pull-based Software Development Model,pull request,explore how pull-based development work,Quantitative + Qualitative,2014,ICSE
+p16,Influence of social and technical factors for evaluating contribution in GitHub (from snowball),pull request,evaluate contribution,Quantitative,2014,ICSE
+p17,Process Mining Multiple Repositories for Software Defect Resolution from Control and Organization Perspective,peer code review,for effective process management,Quantitative + Survey,2014,ICSE
+p18,"Expectations, Outcomes, and Challenges of Modern Code Review",modern code review,"investigate expectations,outcomes and challenges",Survey,2013,ICSE
+p19,Reducing Human Effort and Improving Quality in Peer Code Reviews Using Automatic Static Analysis and Reviewer Recommendation,peer code review, reduce human effort and improve quality,Quantitative,2013,ICSE
+p20,Understanding Broadcast Based Peer Review on Open Source Software Projects,peer review,understand bahavious how developers find code changes,Quantitative + Survey,2011,ICSE
+p21,Predicting Usefulness of Code Review Comments Using Textual Features and Developer Experience,code review,predict usefulness of code review comments,Quantitative + Qualitative,2017,MSR
+p22,Will they like this? Evaluating code contributions with language models (NEW),code review,evaluate the existence and effoecf ot one phenomenon in p41,Quantitative,2015,MSR
+p23,Investigating Code Review Practices in Defective Files: An Empirical Study of the Qt System,code review,investigate defective files,Quantitative,2015,MSR
+p24,Characteristics of Useful Code Reviews: An Empirical Study at Microsoft,code review,investigate useful code reviews,Quantitative + Survey,2015,MSR
+p25,Lessons Learned from Building and Deploying a Code Review Analytics Platform,code review,experience report for CodeFlow Analytics,Survey,2015,MSR
+p26,Partitioning Composite Code Changes to Facilitate Code Review,code review,propose an approach to partition composite changes,Quantitative + Survey,2015,MSR
+p27,"
+Will my patch make it? And how fast? Case study on the Linux kernel",patch review,estimate acceptable patches,Quantitative,2013,MSR
+p28,"The impact of code review coverage and code review participation on software quality: a case study of the qt, VTK, and ITK projects",code review,relationship between review coverage and participation,Quantitative,2014,MSR
+p29,Modern code reviews in open-source projects: which problems do they fix?,modern code review,investigate which problems are fixed,Quantitative + Qualitative,2014,MSR
+p30,On the Optimal Order of Reading Source Code Changes for Review,code review,the order of code change to support developers,Survey,2017,ICSME
+p31,Search-Based Peer Reviewers Recommendation in Modern Code Review,code review,reviewer recommendation,Quantitative,2016,ICSME
+p32,Why are Commits Being Reverted?: A Comparative Study of Industrial and Open Source Projects,commit,understand why commits are reverted,Quantitative + Survey,2016,ICSME
+p33,Investigating code review quality: Do people and participation matter?,code review,the impact of personal and social on quality ,Quantitative,2015,ICSME
+p34,Who should review this change?: Putting text and file location analyses together for more accurate recommendations,code review, reviewer recommendation,Quantitative,2015,ICSME
+p35,Four eyes are better than two: On the impact of code reviews on software quality,code review,relationship between code review and overall software quality,Quantitative,2015,ICSME
+p36,Writing acceptable patches: An empirical study of open source project patches (NEW),patch review,write acceptable patch,Quantitative + Survey,2013,ICSME
+p37,Effectiveness of code contribution: from patch-based to pull-request-based tools,pull request,effectiveness of code contribution from patch-based to pull-based,Quantitative + Qualitative,2016,FSE
+p38,Factors influencing code review processes in industry,code review,industrial factors influencing review process,Survey,2016,FSE
+p39,Learning natural coding conventions ,code review,solve coding conventions to suggest revisions,Quantitative + Survey,2014,FSE
+p40,Identifying the characteristics of vulnerable code changes: an empirical study,code review,identify characteristics of vulnerable code changes,Quantitative + Qualitative,2014,FSE
+p41,Let's talk about it: evaluating contributions through discussion in Github (NEW),pull request,evaluate contribution through discussion,Survey,2014,FSE
+p42,Convergent contemporary software peer review practices,peer review,characterize and understand differences,Quantitative,2013,FSE
+p43,How do software engineers understand code changes?: an exploratory study in industry,code review,how understand code changes,Survey,2012,FSE
+p44,Do crosscutting concerns cause modularity problems? (NEW),patch review,crosscutting conserns impact,Quantitative,2012,FSE
+p45,Semantics-assisted code review: An efficient tool chain and a user study,code review,develop approach to assist code review,Quantitative + Survey,2017,ASE
+p46,Are developers aware of the architectural impact of their changes?,code review,developers' awareness of impact of changes on architecture,Quantitative + Qualitative,2017,ASE
+p47,Can automated pull requests encourage software developers to upgrade out-of-date dependencies?,pull request,whether pull request help developers,Quantitative + Survey,2017,ASE
+p48,Automatically recommending code reviewers based on their expertise: An empirical comparison,code review,reviewer recommendation,Quantitative,2016,ASE
+p49,Studying the Impact of Adopting Continuous Integration on the Delivery Time of Pull Requests,,,Quantitative,2018,MSR
+p50,What Makes a Code Change Easier to Review: An Empirical Investigation on Code Change Reviewability,,,Survey,2018,FSE
+p51,BLIMP Tracer: Integrating Build Impact Analysis with Code Review,,,Survey,2018,ICSME
+p52,How do Multiple Pull Requests Change the Same Code: A Study of Competing Pull Requests in GitHub,,,Quantitative,2018,ICSME
+p53,How Maintainability Issues of Android Apps Evolve,,,Quantitative + Qualitative,2018,ICSME
+pj1,"Peer Review on Open-Source Software Projects: Parameters, Statistical Models, and Theory",peer review,understand OSS peer review,Quantitative,2014,TOSEM
+pj2,Early prediction of merged code changes to prioritize reviewing tasks,modern code review,early prediction of merged code changes,Quantitative,2018,EMSE
+pj3,Review participation in modern code review,modern code review,review participation,Quantitative,2017,EMSE
+pj4,Investigating technical and non-technical factors influencing modern code review,modern code review, investigate technical and non-technical factors,Quantitative,2016,EMSE
+pj5,An empirical study of the impact of modern code review practices on software quality,modern code review,impact of practices on sofware quality,Quantitative,2016,EMSE
+pj6,Are Fix-Inducing Changes a Moving Target? A Longitudinal Case Study of Just-In-Time Defect Prediction (NEW),code change,,Quantitative,2018,TSE
+pj7,Process Aspects and Social Dynamics of Contemporary Code Review: Insights from Open Source Development and Industrial Practice at Microsoft,code review,process aspects and social dynamics ,Survey,2016,TSE
+pj8,Automatically Recommending Peer Reviewers in Modern Code Review,modern code review,reviewer recommendation,Quantitative,2016,TSE
+pj9,A large-scale empirical study of just-in-time quality assurance (NEW),code review,,Quantitative,2013,TSE
+pj10,Comparing the Defect Reduction Benefits of Code Inspection and Test-Driven Development,code inspection, compare the defect reduction benefits,Quantitative + Survey,2012,TSE
+pj11,Understanding inactive yet available assignees in GitHub (NEW),pull request,analysis of inactive yet available assignees,Quantitative + Survey,2017,IST
+pj12,Who should comment on this pull request? Analyzing attributes for more accurate commenter recommendation in pull-based development,pull request,reviewer recommendation,Quantitative,2017,IST
+pj13,Reviewer recommendation for pull-requests in GitHub: What can we learn from code review and bug assignment?,pull request,reviewer recommendation,Quantitative + Qualitative,2016,IST
+pj15,what factors inluence the reviewer assignment to pull request?,,,Quantitative + Qualitative,2018,IST
+pj16,Does reviewer recommendation help developers?,,,Quantitative + Survey,2018,TSE
