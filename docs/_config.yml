@@ -21,6 +21,7 @@ baseurl: "/code-review" # the subpath of your site, e.g. /blog
 url: "https://NAIST-SE.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: selabnaist
 github_username:  NAIST-SE
+email: wang.dong.vt8@is.naist.jp
 
 
 collections:
