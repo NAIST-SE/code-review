@@ -1,7 +1,7 @@
 import csv
 from collections import defaultdict
 
-with open("Excel_data/papers.csv", "r") as papers_file:
+with open("data/papers.csv", "r") as papers_file:
     papers = list(csv.DictReader(papers_file))
 
     research_types = defaultdict(int)
@@ -27,7 +27,7 @@ with open("Excel_data/papers.csv", "r") as papers_file:
         practice_type = paper["practitioner"] + ",," + paper["types"] + ",," + "Practitioner"
         practice_types[practice_type] +=  1
 
-    with open("Excel_data/research_type.csv", "w") as output_file:
+    with open("data/research_type.csv", "w") as output_file:
         writer = csv.writer(output_file)
         writer.writerow(["Category", "Methodology", "Subclass", "size"])
         for research_type, count in research_types.items():

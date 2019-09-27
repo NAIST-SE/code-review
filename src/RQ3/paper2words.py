@@ -21,11 +21,11 @@ def conv_year(year):
 
 keywords = []
 
-with open("Excel_data/paper_names_premium.csv", "r") as premium_file:
+with open("data/paper_names_premium.csv", "r") as premium_file:
     premium = csv.DictReader(premium_file)
     premium_words = [{"word": make_word_point(x["word"]), "No": x["No"], "Year": x["Year"]} for x in premium]
     premium_words2 = [x["word"] for x in premium_words]
-    with open("Excel_data/paper_names_snowballed.csv", "r") as snowballed_file:
+    with open("data/paper_names_snowballed.csv", "r") as snowballed_file:
         snowball = csv.DictReader(snowballed_file)
         snowball_words = [{"word": make_word_point(x["word"]), "No": x["No"], "Year": x["Year"]} for x in snowball]
         snowball_words2 = [x["word"] for x in snowball_words]
@@ -56,12 +56,12 @@ with open("Excel_data/paper_names_premium.csv", "r") as premium_file:
         #         year_count = len([x for x in worded_year if x == y])
         #         keywords.append({"word": word, "count": year_count, "type": "premium", "year": y})
         print(keywords)
-        with open("Excel_data/word_vs_count_review.csv", "w") as target:
+        with open("data/word_vs_count_review.csv", "w") as target:
             writer = csv.DictWriter(target,["word", "count", "year"])
             writer.writeheader()
             writer.writerows(keywords)
 
-# with open("Excel_data/paper_names_snowballed.csv", "r") as snowballed_file:
+# with open("data/paper_names_snowballed.csv", "r") as snowballed_file:
 #     premium = csv.DictReader(snowballed_file)
 #     premium_words = [{"word": make_word_point(x["word"]), "No": x["No"]} for x in premium]
 #     premium_words2 = [x["word"] for x in premium_words]

@@ -2,7 +2,7 @@ library(ggplot2)
 library(plyr)
 library(reshape2)
 
-dataset <- read.csv("Excel_data/research_type.csv", header=TRUE, sep=",")
+dataset <- read.csv("data/research_type.csv", header=TRUE, sep=",")
 
 g <- ggplot(dataset, aes(x=Category, y=Methodology, size=as.numeric(size),colour=Subclass)) + 
 geom_point() +

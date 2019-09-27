@@ -4,7 +4,7 @@ from collections import defaultdict
 type_papers = defaultdict(list)
 
 
-with open("Excel_data/papers.csv", "r") as papers_file:
+with open("data/papers.csv", "r") as papers_file:
     # read paper
     papers = csv.DictReader(papers_file)
 

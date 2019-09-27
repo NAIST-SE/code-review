@@ -3,7 +3,7 @@ import csv
 journals = ["TOSEM", "EMSE","TSE", "IST"]
 conferences = ["ICSE", "MSR", "ICSME", "FSE", "ASE"]
 
-with open("Excel_data/paper_names_premium.csv", "r") as papers_file:
+with open("data/paper_names_premium.csv", "r") as papers_file:
     papers = csv.DictReader(papers_file)
     type_count = {}
     type_count2 = {}
@@ -27,7 +27,7 @@ with open("Excel_data/paper_names_premium.csv", "r") as papers_file:
 
 
 
-with open("Excel_data/paper_names_snowballed.csv", "r") as papers_file:
+with open("data/paper_names_snowballed.csv", "r") as papers_file:
     papers = csv.DictReader(papers_file)
 
     for paper in papers:
@@ -47,13 +47,13 @@ with open("Excel_data/paper_names_snowballed.csv", "r") as papers_file:
         else:
             type_count2[type_set2] = type_count2[type_set2] + 1
 
-with open("Excel_data/year_vs_conf.csv", "w") as target:
+with open("data/year_vs_conf.csv", "w") as target:
     writer = csv.writer(target)
     writer.writerow(["Year","Publication","Count"])
     for content, count in type_count.items():
         writer.writerow(content.split(",") + [str(count)])
 
-with open("Excel_data/year_vs_conf2.csv", "w") as target:
+with open("data/year_vs_conf2.csv", "w") as target:
     writer = csv.writer(target)
     writer.writerow(["Year","Type","Publication","Count"])
     for content, count in type_count2.items():

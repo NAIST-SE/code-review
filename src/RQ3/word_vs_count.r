@@ -2,10 +2,10 @@ library(ggplot2)
 library(magrittr)
 library(dplyr)
 library(tidyr)
-papers <- read.csv("Excel_data/word_vs_count_review.csv",
+papers <- read.csv("data/word_vs_count_review.csv",
                    header = TRUE, sep = ",")
 
-# papers <- read.csv("Excel_data/year_vs_conf_snowballed.csv",
+# papers <- read.csv("data/year_vs_conf_snowballed.csv",
 #                    header = TRUE, sep = ",")
 # library(gcookbook)
 

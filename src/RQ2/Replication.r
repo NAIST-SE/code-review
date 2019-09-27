@@ -1,6 +1,6 @@
 library(ggplot2)
 
-dataset <- read.csv("Excel_data/rep.csv")
+dataset <- read.csv("data/rep.csv")
 dataset$Percentage <- paste(dataset$Count / 50 * 100, "%")
 g <- ggplot(dataset, aes(x=reorder(Data, Count), y=Count,fill=Replicatable)) +
 geom_bar(stat="identity", colour="black") +

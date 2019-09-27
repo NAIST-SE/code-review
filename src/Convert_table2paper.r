@@ -2,8 +2,8 @@ library(ggplot2)
 library(plyr)
 library(reshape2)
 
-researchtype <- read.csv("Excel_data/Methodologies.csv", header=FALSE, sep=",")
-classification <- read.csv("Excel_data/Contributions.csv", header=TRUE, sep=",")
+researchtype <- read.csv("data/Methodologies.csv", header=FALSE, sep=",")
+classification <- read.csv("data/Contributions.csv", header=TRUE, sep=",")
 
 
 paper_id <- c()
@@ -48,4 +48,4 @@ new_types <- data.frame(paper_id=paper_id, types = types)
 
 projects <- merge(new_classification, new_types,
 by = "paper_id", all=T)
-write.csv(projects, file = "Excel_data/papers.csv", row.names=FALSE)
+write.csv(projects, file = "data/papers.csv", row.names=FALSE)
