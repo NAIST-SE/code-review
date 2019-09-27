@@ -15,6 +15,7 @@ Mapping Study for Code Review Papers in SE
 * Contributions.csv
 * paper_names_premium.csv
 * paper_names_snowballed.csv
+* Data_Cat.csv
 
 #### Preprocessing
 
@@ -37,9 +38,9 @@ Mapping Study for Code Review Papers in SE
 * Output: Fig4: Visual Map for RQ1, showing the contributions andmethodologies of CR research
 
 #### step 3
-* Source: src/RQ1/contribution_vs_methodology_latexTab.py
+* Source: *(Bit old)src/RQ1/contribution_vs_methodology_latexTab.py*
 * Input: paper_names_premium.csv, papers.csv
-* Output: (Old version) TABLE 6: Top 5 combination of contributions and methodologies
+* Output: TABLE 6: Top 5 combination of contributions and methodologies
 
 
 ### RQ2
@@ -50,7 +51,7 @@ Mapping Study for Code Review Papers in SE
 * Output: rep.csv
 
 #### step 2
-* Source: ** (Changed by wang?) src/RQ2/Replication.r **
+* Source: *(Bit old) src/RQ2/Replication.r*
 * Input: rep.csv
 * Output: Fig. 5: Visual Map for RQ2, showing replicability of thecollected papers
 
@@ -78,6 +79,6 @@ Mapping Study for Code Review Papers in SE
 
 #### step 2
 
-* Source: ** (Changed by wang?) src/RQ4/conf_vs_year.r **
+* Source: *(Bit old) src/RQ4/conf_vs_year.r*
 * Input: year_vs_conf.csv, year_vs_conf2.csv
 * Output: Fig. 7: Conference and journal papers on CR research
