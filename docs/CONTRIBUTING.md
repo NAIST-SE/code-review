@@ -24,6 +24,7 @@ practitioner:
 researcher:
 - Automation
 - Program comprehension
+summary: Summary of the paper
 ---
 
 Any documentation can go here. Many publications just use their abstract here.
