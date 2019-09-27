@@ -6,7 +6,7 @@ permalink: /publications/
 <table id="allPapers">
   <thead><th onclick="sortTable(0)">Title</th>
          <th onclick="sortTable(1)">Year</th>
-         <th onclick="sortTable(2)">Conference</th>
+         <th onclick="sortTable(2)">Submission</th>
          <th onclick="sortTable(4)">Methodologies</th>
          <th onclick="sortTable(4)">Contribution</th>
 
@@ -25,7 +25,7 @@ permalink: /publications/
     <td>{{ publication.year }}</td>
     <td>{{ publication.conference }}</td>
     <td>{% for methodology in publication.methodology %} {{ methodology }}, {% endfor %}</td>
-    <td>Contribution: {% for researcher in publication.researcher %} {{ researcher }},{% endfor %}
+    <td> {% for researcher in publication.researcher %} {{ researcher }},{% endfor %}
         {% for practitioner in publication.practitioner %} {{ practitioner }}, {% endfor %}</td> 
   </tr>
   {% endfor %}
