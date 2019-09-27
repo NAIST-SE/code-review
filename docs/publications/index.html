@@ -4,14 +4,17 @@ title: Papers
 permalink: /publications/
 ---
 <table id="allPapers">
-  <thead><th onclick="sortTable(0)">Year</th>
-         <th onclick="sortTable(1)">Title</th>
-         <th onclick="sortTable(2)">Conference</th></thead><tbody>
+  <thead><th onclick="sortTable(0)">Title</th>
+         <th onclick="sortTable(1)">Year</th>
+         <th onclick="sortTable(2)">Conference</th>
+         <th onclick="sortTable(4)">Methodologies</th>
+         <th onclick="sortTable(4)">Contribution</th>
+
+         </thead><tbody>
   {% assign publicationsByYear = site.publications | sort: "year" | group_by: "year" %}
   {% for year in publicationsByYear reversed %}
   {% for publication in year.items %}
   <tr>
-    <td>{{ publication.year }}</td>
     <td><a href="{{ publication.url | prepend: site.baseurl }}">{{publication.title}}</a>
       <!-- <span class="externallinks">
         &nbsp;<a href='http://scholar.google.com/scholar?q={{ publication.title }}' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
@@ -19,7 +22,11 @@ permalink: /publications/
         <a href='http://academic.microsoft.com/#/search?iq={{ publication.title | uri_escape }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
       </span> -->
     </td>
+    <td>{{ publication.year }}</td>
     <td>{{ publication.conference }}</td>
+    <td>{% for methodology in publication.methodology %} {{ methodology }}, {% endfor %}</td>
+    <td>Contribution: {% for researcher in publication.researcher %} {{ researcher }},{% endfor %}
+        {% for practitioner in publication.practitioner %} {{ practitioner }}, {% endfor %}</td> 
   </tr>
   {% endfor %}
   {% endfor %}

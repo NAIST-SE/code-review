@@ -6,9 +6,10 @@ layout: default
   <h2 class="page-author">{{ page.authors }}</h2>
   <h3>Conference: {{ page.conference }} {{ page.year }}</h3>
   <h3>Methodologies: {% for publication in page.methodology %} {{ publication }}, {% endfor %}</h3>
-  <h3>Contribution: {% for publication in page.researchery %} {{ publication }},{% endfor %}
+  <h3>Contribution: {% for publication in page.researcher %} {{ publication }},{% endfor %}
                     {% for publication in page.practitioner %} {{ publication }}, {% endfor %}</h3> 
-  <h3>Summary: {{ page.Summary}}</h3>
+  <h3>Summary: {{ page.summary}}</h3>
+  <h3><a href='http://scholar.google.com/scholar?q={{ page.title }}'>Search by google scholor</a> </h3>
       
       <p>{{ content }}</p>
 </div>

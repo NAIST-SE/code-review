@@ -25,7 +25,8 @@ with open("data/Data_Cat.csv", "r") as csvdata:
             "bibkey": bibkey + "_" + str(paper_year[bibkey]),
             "methodology": methodology,
             "researcher": researcher,
-            "practitioner": practitioner
+            "practitioner": practitioner,
+            "summary": paper["Summary"]
         }
         with open(f"docs/_publications/{bibkey}_{paper_year[bibkey]}.md", "w") as yamldata:
             yamldata.write("---\n" + yaml.dump(output_format) + "---\n")
