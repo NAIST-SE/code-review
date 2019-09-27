@@ -6,8 +6,7 @@ permalink: /publications/
 <table id="allPapers">
   <thead><th onclick="sortTable(0)">Year</th>
          <th onclick="sortTable(1)">Title</th>
-         <th onclick="sortTable(2)">Authors</th>
-         <th onclick="sortTable(3)">Conference</th></thead><tbody>
+         <th onclick="sortTable(2)">Conference</th></thead><tbody>
   {% assign publicationsByYear = site.publications | sort: "year" | group_by: "year" %}
   {% for year in publicationsByYear reversed %}
   {% for publication in year.items %}
@@ -20,7 +19,6 @@ permalink: /publications/
         <a href='http://academic.microsoft.com/#/search?iq={{ publication.title | uri_escape }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
       </span> -->
     </td>
-    <td>{{ publication.authors }}</td>
     <td>{{ publication.conference }}</td>
   </tr>
   {% endfor %}

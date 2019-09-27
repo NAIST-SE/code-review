@@ -5,7 +5,10 @@ layout: default
   <h1 class="page-title">{{ page.title }}</h1>
   <h2 class="page-author">{{ page.authors }}</h2>
   <h3>Conference: {{ page.conference }} {{ page.year }}</h3>
-  <h3>Description: {{ page.description}}</h3>
+  <h3>Methodologies: {% for publication in page.methodology %} {{ publication }}, {% endfor %}</h3>
+  <h3>Contribution: {% for publication in page.researchery %} {{ publication }},{% endfor %}
+                    {% for publication in page.practitioner %} {{ publication }}, {% endfor %}</h3> 
+  <h3>Summary: {{ page.Summary}}</h3>
       
       <p>{{ content }}</p>
 </div>
