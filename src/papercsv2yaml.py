@@ -1,5 +1,5 @@
 """
-need pip3 install pyyaml
+require: pip3 install pyyaml
 """
 import yaml
 import csv

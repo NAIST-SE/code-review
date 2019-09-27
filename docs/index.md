@@ -13,9 +13,13 @@ This catalog of papers are the result of a systematic study that was aimed to su
 * [Code Review Papers](https://naist-se.github.io/code-review/publications/)
 * [Conferences and Journals for Code Review](https://naist-se.github.io/code-review/submissions.html)
 
+## Contributions
+
+We hope that you will contribute the catalog of papers. Please put your paper from [here](https://github.com/NAIST-SE/code-review.github.io/blob/master/docs/CONTRIBUTING.md#adding-your-PAPER)
+
 # Project members
 
-* Dong Wang (wang.dong.vt8@is.naist.jp)
+* Dong Wang (<wang.dong.vt8@is.naist.jp>)
 * [Yuki Ueda](https://ikuyadeu.github.io/)
 * [Raula Gaikovina Kula](https://raux.github.io/)
 * [Takashi Ishio](https://takashi-ishio.github.io/)
