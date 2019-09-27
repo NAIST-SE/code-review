@@ -1,0 +1,76 @@
+No,Title,Data source,Project,Cat.,Available,Type,Year,Conference
+P01,Modern Code Review: A Case Study at Google,--,--,,,Q2,2018,ICSE
+P02,Was My Contribution Fairly Reviewed?: A Framework to Study the Perception of Fairness in Modern Code Reviews,--,--,Closed data,no,Q2,2018,ICSE
+P03,Studying Pull Request Merges: A Case Study of Shopify's Active Merchant,Github,Active Merchant,Open data,no,Q1+Q2,2018,ICSE
+P04,When Testing Meets Code Review: Why and How Developers Review Tests,gerrit,"Qt, OpenStack, Eclipse",,,Q1+Q2,2018,ICSE
+P05,Decoding the Representation of Code in the Brain: An fMRI Study of Code Review and Expertise,--,--,Closed data,no,Q1(Mixed),2017,ICSE
+P06,Revisiting Code Ownership and Its Relationship with Software Quality in the Scope of Modern Code Review,gerrit,"Qt, OpenStack",Reference to dataset,"yes
+Who does what during a code review",Q1,2016,ICSE
+P07,Work Practices and Challenges in Pull-based Development: The Integrator's Perspective,--,--,Closed data,no,Q2,2016,ICSE
+P08,Teaching Code Review Management Using Branch Based Workflows,--,--,Closed data,no,Q2,2016,ICSE
+P09,Code Review Quality: How Developers See It,--,--,Closed data,no,Q2,2016,ICSE
+P10,A Study of the Quality-impacting Practices of Modern Code Review at Sony Mobile,industry,sony mobile,Closed data,no,Q1+Q2,2016,ICSE
+P11,CoRReCT: Code Reviewer Recommendation in GitHub Based on Cross-project and Technology Experience,industry,closed project,Closed data,no,Q1(Mixed),2016,ICSE
+P12,Interactive Code Review for Systematic Changes,--,--,Closed data,no,Q1+Q2,2015,ICSE
+P13,Work Practices and Challenges in Pull-based Development: The contributor's Perspective (NEW),--,--,Closed data,no,Q2,2015,ICSE
+P14,Helping Developers Help Themselves: Automatic Decomposition of Code Review Changesets,MS,"Bing, Office2013 in MS",Closed data,no,Q1+Q2,2015,ICSE
+P15,An Exploratory Study of the Pull-based Software Development Model,Github,"291 projects (99Python, 91Java, 87Ruby, 14Scala)",Open data,no,Q1(Mixed),2014,ICSE
+P16,Influence of social and technical factors for evaluating contribution in GitHub (from snowball),Github,,Open data,no,Q1,2014,ICSE
+P17,Process Mining Multiple Repositories for Software Defect Resolution from Control and Organization Perspective,ITS/Rietveld/Subversion,Google Chromium,Open data,no,Mixed,2014,ICSE
+P18,"Expectations, Outcomes, and Challenges of Modern Code Review",industry,MS,Closed data,no,Q2,2013,ICSE
+P19,Reducing Human Effort and Improving Quality in Peer Code Reviews Using Automatic Static Analysis and Reviewer Recommendation,Industry,Vmware,Closed data,no,Q1,2013,ICSE
+P20,Understanding Broadcast Based Peer Review on Open Source Software Projects,email reviews,"Apaches, Subversion,FreeBSD, Linux kernel, KDE",,,Q2+Q1,2011,ICSE
+P21,Predicting Usefulness of Code Review Comments Using Textual Features and Developer Experience,industry,closed project,Closed data,no,Q1(Mixed),2017,MSR
+P22,Will they like this? Evaluating code contributions with language models (NEW),github,22 projects,Open data,no,Q1,2015,MSR
+P23,Investigating Code Review Practices in Defective Files: An Empirical Study of the Qt System,gerrit,Qt,Reference to dataset,"yes 
+Who does what during a code review
+MSR2014 Shane",Q1,2015,MSR
+P24,Characteristics of Useful Code Reviews: An Empirical Study at Microsoft,industry,"Azure, Bing, Visual Studio, Exchange, Office",Closed data,no,Q1+Q2,2015,MSR
+P25,Lessons Learned from Building and Deploying a Code Review Analytics Platform,--,--,Closed data,no,Q2,2015,MSR
+P26,Partitioning Composite Code Changes to Facilitate Code Review,Subversion (SVM),"Ant, Commons Math, Xerces, JFreeChart",Open data,no,Q1+Q2,2015,MSR
+P27,"
+Will my patch make it? And how fast? Case study on the Linux kernel",mailing list/ Git,Linus Torvald,Open data,no,Q1,2013,MSR
+P28,"The impact of code review coverage and code review participation on software quality: a case study of the qt, VTK, and ITK projects",gerrit/,"Qt, VTK, ITK",Open data available via link,"yes
+http://sailhome.cs.queensu.ca/replication/reviewing_quality/",Q1,2014,MSR
+P29,Modern code reviews in open-source projects: which problems do they fix?,gerrit/,CROMACS/ConQAT,Open data,no,Q1(Mixed),2014,MSR
+P30,On the Optimal Order of Reading Source Code Changes for Review,--,--,Closed data,,Q2,2017,ICSME
+P31,Search-Based Peer Reviewers Recommendation in Modern Code Review,gerrit,Android/Openstack/Qt,Reference to dataset,"yes
+Mining the code review repositories",Q1,2016,ICSME
+P32,Why are Commits Being Reverted?: A Comparative Study of Industrial and Open Source Projects,idustry/gerrit/git,Sony Mobile/Android/Gerrit/git-repo,Open/Closed data,,Q1+Q2,2016,ICSME
+P33,Investigating code review quality: Do people and participation matter?,ITS(Bugzilla),Mozilla,Open data,no,Q1,2015,ICSME
+P34,Who should review this change?: Putting text and file location analyses together for more accurate recommendations,gerrit,"Android, OpenStack, Qt, LibreOffice",Reference to dataset,Who should review my code,Q1,2015,ICSME
+P35,Four eyes are better than two: On the impact of code reviews on software quality,gerrit/Git,"Android frameworks base APIs,LibreOffice, Scilab",Open data,no,Q1,2015,ICSME
+P36,Writing acceptable patches: An empirical study of open source project patches (NEW),ITS (Bugzilla),"Eclipse, Mozilla",Open data,no,Q1+Q2,2013,ICSME
+P37,Effectiveness of code contribution: from patch-based to pull-request-based tools,--,--,,,Q1(Mixed),2016,FSE
+P38,Factors influencing code review processes in industry,--,--,Closed data,no,Q2,2016,FSE
+P39,Learning natural coding conventions ,Github / industry,Java/MS,,,Q1+Q2,2014,FSE
+P40,Identifying the characteristics of vulnerable code changes: an empirical study,gerrit,"Android/Chromium OS/Gerrit/ITK,VTK/Media Wiki/OmapZoom/OpenAFS/oVirt/Qt/Rypo3",Open data,no,Q1(Mixed),2014,FSE
+P41,Let's talk about it: evaluating contributions through discussion in Github (NEW),--,--,,,Q2,2014,FSE
+P42,Convergent contemporary software peer review practices,CodeFlow tool/gerrit/CodeCollaborate tool/industry/mailing lists,MS/Google Chrome and Android/AMD/Lucent/OSS project,Reference to dataset,"yes
+Gerrit software code review data from android",Q1,2013,FSE
+P43,How do software engineers understand code changes?: an exploratory study in industry,--,--,Closed data,no,Q2,2012,FSE
+P44,Do crosscutting concerns cause modularity problems? (NEW),ITS(Bugzilla),Mozilla,Open data,no,Q1,2012,FSE
+P45,Semantics-assisted code review: An efficient tool chain and a user study,git,Apache(GSON/CLI/Codec/Crypto/Collections/Configuration),,,Q1+Q2,2017,ASE
+P46,Are developers aware of the architectural impact of their changes?,gerrit,egit/linuxtools/java-client/jvm-core,Open data available via link,yes,Q1(Mixed),2017,ASE
+P47,Can automated pull requests encourage software developers to upgrade out-of-date dependencies?,github,"7,470projects",Open data,no,Q1+Q2,2017,ASE
+P48,Automatically recommending code reviewers based on their expertise: An empirical comparison,ITS/gerrit,Firefox/AOSP/OpenStack/Qt,Reference to dataset,"yes 
+Who does what during a code review",Q1,2016,ASE
+PJ49,"Peer Review on Open-Source Software Projects: Parameters, Statistical Models, and Theory",,Apache/Subversion/Linux/FreeBSD/KDE/Gnome,,,Q1,2014,TOSEM
+PJ50,Early prediction of merged code changes to prioritize reviewing tasks,gerrit,Eclipse/LibreOffice/OpenStack,Open data,no,Q1,2018,EMSE
+PJ51,Review participation in modern code review,gerrit,Android/Qt/OpenStack,Reference to dataset,"yes
+Who does what during a code review",Q1,2017,EMSE
+PJ52,Investigating technical and non-technical factors influencing modern code review,,WebKit/Blink,Open data available via link,"yes
+http://cs.uwaterloo.ca/~obaysal/webkit_data.sqlite
+http://cs.uwaterloo.ca/~obaysal/blink_data.sqlite",Q1,2016,EMSE
+PJ53,An empirical study of the impact of modern code review practices on software quality,gerrit,"Qt, VTK, ITK",Reference to dataset,"yes
+Who does what during a code review",Q1,2016,EMSE
+PJ54,Are Fix-Inducing Changes a Moving Target? A Longitudinal Case Study of Just-In-Time Defect Prediction (NEW),gerrit/VCS/ITS,"QT, OpenStack",,,Q1,2018,TSE
+PJ55,Process Aspects and Social Dynamics of Contemporary Code Review: Insights from Open Source Development and Industrial Practice at Microsoft,--,--,Closed data,no,Q2,2016,TSE
+PJ56,Automatically Recommending Peer Reviewers in Modern Code Review,gerrit/closed system,"Android, Eclipse, Mylyn / MS Office",,,Q1,2016,TSE
+PJ57,A large-scale empirical study of just-in-time quality assurance (NEW),,6 OSS projects / 5 commercial projects,,,Q1,2013,TSE
+PJ58,Comparing the Defect Reduction Benefits of Code Inspection and Test-Driven Development,--,closed experiment,Closed data,no,Q1+Q2,2012,TSE
+PJ59,Understanding inactive yet available assignees in GitHub (NEW),github,37 projects,Open data,no,Q1+Q2,2017,IST
+PJ60,Who should comment on this pull request? Analyzing attributes for more accurate commenter recommendation in pull-based development,github,8 projects (rails/symfony/scala/bitcoin/zendframework/akka/cakephp/gitlabhq),Open data,no,Q1,2017,IST
+PJ61,Reviewer recommendation for pull-requests in GitHub: What can we learn from code review and bug assignment?,github,84 projects,Reference to dataset,"yes
+Wait for it MSR 2015",Q1(Mixed),2016,IST
+PJ62,Comparative case studies of open source software peer review practices,ITS/mailing lists/web documents,Mozilla/Python,,,Q1,2015,IST
