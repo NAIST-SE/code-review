@@ -12,6 +12,7 @@ This catalog of papers are the result of a systematic study that was aimed to su
 # Pages
 * [Code Review Papers](https://naist-se.github.io/code-review/publications/)
 * [Conferences and Journals for Code Review](https://naist-se.github.io/code-review/submissions.html)
+* (External Link) [GitHub repository of this script and data](https://github.com/NAIST-SE/code-review)
 
 ## Contributions
 
