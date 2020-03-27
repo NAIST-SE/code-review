@@ -1,0 +1,28 @@
+[
+    {
+        "id": "p01",
+        "title": "paper title",
+        "link": true,
+        "classification": {
+            "Process": ["Comment count"],
+            "Human": [
+                "GitHub ID",
+                "Gender"
+            ],
+            "Product": []
+        }
+    },
+    {
+        "id": "p02",
+        "title": "paper title2",
+        "link": true,
+        "classification": {
+            "Process": ["Comment count"],
+            "Human": [
+                "GitHub ID",
+                "Gender"
+            ],
+            "Product": ["Git"]
+        }
+    }
+]
