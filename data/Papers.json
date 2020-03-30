@@ -1,0 +1,1460 @@
+[
+ {
+  "No": "p01",
+  "title": "Modern Code Review: A Case Study at Google",
+  "conference": "ICSE",
+  "year": 2018,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q2",
+  "bibkey": "ICSE2018_1",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Other"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Potential benefits"
+  ],
+  "summary": "A novel case study in Google"
+ },
+ {
+  "No": "p02",
+  "title": "Was My Contribution Fairly Reviewed?: A Framework to Study the Perception of Fairness in Modern Code Reviews",
+  "conference": "ICSE",
+  "year": 2018,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q2",
+  "bibkey": "ICSE2018_2",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Communication"
+  ],
+  "summary": "Fairness of contribution in CR"
+ },
+ {
+  "No": "p03",
+  "title": "Studying Pull Request Merges: A Case Study of Shopify's Active Merchant",
+  "conference": "ICSE",
+  "year": 2018,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q1+Q2",
+  "bibkey": "ICSE2018_3",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Understanding",
+   "Communication"
+  ],
+  "summary": "A novel case study of Shopify's active merchant in pull requests"
+ },
+ {
+  "No": "p04",
+  "title": "When Testing Meets Code Review: Why and How Developers Review Tests",
+  "conference": "ICSE",
+  "year": 2018,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q1+Q2",
+  "bibkey": "ICSE2018_4",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Understanding"
+  ],
+  "summary": "Test reviewing in CR"
+ },
+ {
+  "No": "p05",
+  "title": "Decoding the Representation of Code in the Brain: An fMRI Study of Code Review and Expertise",
+  "conference": "ICSE",
+  "year": 2017,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q1(Mixed)",
+  "bibkey": "ICSE2017_1",
+  "methodology": [
+   "Validation"
+  ],
+  "researcher": [
+   "Program comprehension"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "A controlled experiment to examine code comprehension, code review and prose review"
+ },
+ {
+  "No": "p06",
+  "title": "Revisiting Code Ownership and Its Relationship with Software Quality in the Scope of Modern Code Review",
+  "conference": "ICSE",
+  "year": 2016,
+  "Data": "Reference to dataset",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "ICSE2016_1",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Understanding",
+   "Communication"
+  ],
+  "summary": "New dataset to revisit the relationship between code ownership and software quality in CR"
+ },
+ {
+  "No": "p07",
+  "title": "Work Practices and Challenges in Pull-based Development: The Integrator's Perspective",
+  "conference": "ICSE",
+  "year": 2016,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q2",
+  "bibkey": "ICSE2016_2",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Other"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Potential benefits"
+  ],
+  "summary": "The work practices and challenges from integrator's"
+ },
+ {
+  "No": "p08",
+  "title": "Teaching Code Review Management Using Branch Based Workflows",
+  "conference": "ICSE",
+  "year": 2016,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q2",
+  "bibkey": "ICSE2016_3",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Program comprehension"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Understanding",
+   "Potential benefits"
+  ],
+  "summary": "New workflows to teach students how to conduct code reviews"
+ },
+ {
+  "No": "p09",
+  "title": "Code Review Quality: How Developers See It",
+  "conference": "ICSE",
+  "year": 2016,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q2",
+  "bibkey": "ICSE2016_4",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Other"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Understanding"
+  ],
+  "summary": "New aspect on how developers perceive the quality of CR"
+ },
+ {
+  "No": "p10",
+  "title": "A Study of the Quality-impacting Practices of Modern Code Review at Sony Mobile",
+  "conference": "ICSE",
+  "year": 2016,
+  "Data": "Reference to dataset/Closed data",
+  "Replicatable": "Mixed",
+  "Type": "Q1+Q2",
+  "bibkey": "ICSE2016_5",
+  "methodology": [
+   "Evaluation",
+   "Solution",
+   "Experience"
+  ],
+  "researcher": [
+   "Program comprehension"
+  ],
+  "practitioner": [
+   "Quality Assurance"
+  ],
+  "summary": "A novel case study of a proprietary system in Sony"
+ },
+ {
+  "No": "p11",
+  "title": "CoRReCT: Code Reviewer Recommendation in GitHub Based on Cross-project and Technology Experience",
+  "conference": "ICSE",
+  "year": 2016,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q1(Mixed)",
+  "bibkey": "ICSE2016_6",
+  "methodology": [
+   "Validation",
+   "Solution"
+  ],
+  "researcher": [
+   "Automation",
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "Reviewer recommendation based on  cross-project and technology experience"
+ },
+ {
+  "No": "p12",
+  "title": "Interactive Code Review for Systematic Changes",
+  "conference": "ICSE",
+  "year": 2015,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q1+Q2",
+  "bibkey": "ICSE2015_1",
+  "methodology": [
+   "Validation",
+   "Solution"
+  ],
+  "researcher": [
+   "Automation",
+   "Program comprehension"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "An approach for inspecting systematic changes"
+ },
+ {
+  "No": "p13",
+  "title": "Work Practices and Challenges in Pull-based Development: The contributor's Perspective",
+  "conference": "ICSE",
+  "year": 2015,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q2",
+  "bibkey": "ICSE2015_2",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Other"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Potential benefits"
+  ],
+  "summary": "The work practices and challenges from contributor's perspective in pull-based development"
+ },
+ {
+  "No": "p14",
+  "title": "Helping Developers Help Themselves: Automatic Decomposition of Code Review Changesets",
+  "conference": "ICSE",
+  "year": 2015,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q1+Q2",
+  "bibkey": "ICSE2015_3",
+  "methodology": [
+   "Validation",
+   "Solution"
+  ],
+  "researcher": [
+   "Automation",
+   "Program comprehension"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "An technique for decomposing changesets"
+ },
+ {
+  "No": "p15",
+  "title": "An Exploratory Study of the Pull-based Software Development Model",
+  "conference": "ICSE",
+  "year": 2014,
+  "Data": "Open data",
+  "Replicatable": "no",
+  "Type": "Q1(Mixed)",
+  "bibkey": "ICSE2014_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "An exploration on how pull-based development works"
+ },
+ {
+  "No": "p16",
+  "title": "Influence of social and technical factors for evaluating contribution in GitHub (from snowball)",
+  "conference": "ICSE",
+  "year": 2014,
+  "Data": "Open data",
+  "Replicatable": "no",
+  "Type": "Q1",
+  "bibkey": "ICSE2014_2",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "Evaluation of  contribution from social and technical factors in GitHub"
+ },
+ {
+  "No": "p17",
+  "title": "Process Mining Multiple Repositories for Software Defect Resolution from Control and Organization Perspective",
+  "conference": "ICSE",
+  "year": 2014,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Mixed",
+  "bibkey": "ICSE2014_3",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Other"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Potential benefits"
+  ],
+  "summary": "An application of process mining  repositories (ITS, PCR and VCS)"
+ },
+ {
+  "No": "p18",
+  "title": "Expectations, Outcomes, and Challenges of Modern Code Review",
+  "conference": "ICSE",
+  "year": 2013,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q2",
+  "bibkey": "ICSE2013_1",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Other"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Potential benefits"
+  ],
+  "summary": "An exploration on expectations, outcomes, and challenges in CR"
+ },
+ {
+  "No": "p19",
+  "title": "Reducing Human Effort and Improving Quality in Peer Code Reviews Using Automatic Static Analysis and Reviewer Recommendation",
+  "conference": "ICSE",
+  "year": 2013,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q1",
+  "bibkey": "ICSE2013_2",
+  "methodology": [
+   "Validation"
+  ],
+  "researcher": [
+   "Automation"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Potential benefits"
+  ],
+  "summary": "A novel tool to reduce human efforts and improve quality in CR"
+ },
+ {
+  "No": "p20",
+  "title": "Understanding Broadcast Based Peer Review on Open Source Software Projects",
+  "conference": "ICSE",
+  "year": 2011,
+  "Data": "Open data/Closed data",
+  "Replicatable": "no",
+  "Type": "Q2+Q1",
+  "bibkey": "ICSE2011_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Communication"
+  ],
+  "summary": "An empirical study to investigate the mechanisms and behaviours in peer review"
+ },
+ {
+  "No": "p21",
+  "title": "Predicting Usefulness of Code Review Comments Using Textual Features and Developer Experience",
+  "conference": "MSR",
+  "year": 2017,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q1(Mixed)",
+  "bibkey": "MSR2017_1",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Automation",
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "A novel model to predict usefulness of review comments"
+ },
+ {
+  "No": "p22",
+  "title": "Will they like this? Evaluating code contributions with language models",
+  "conference": "MSR",
+  "year": 2015,
+  "Data": "Open data",
+  "Replicatable": "no",
+  "Type": "Q1",
+  "bibkey": "MSR2015_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Program comprehension",
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "A novel model to evaluate code contribution"
+ },
+ {
+  "No": "p23",
+  "title": "Investigating Code Review Practices in Defective Files: An Empirical Study of the Qt System",
+  "conference": "MSR",
+  "year": 2015,
+  "Data": "Reference to dataset",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "MSR2015_2",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Socio-technical effects",
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Understanding"
+  ],
+  "summary": "Investigation of defective files in CR"
+ },
+ {
+  "No": "p24",
+  "title": "Characteristics of Useful Code Reviews: An Empirical Study at Microsoft",
+  "conference": "MSR",
+  "year": 2015,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q1+Q2",
+  "bibkey": "MSR2015_3",
+  "methodology": [
+   "Evaluation",
+   "Solution",
+   "Experience"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "An exploratory qualitative analysis of useful reviews"
+ },
+ {
+  "No": "p25",
+  "title": "Lessons Learned from Building and Deploying a Code Review Analytics Platform",
+  "conference": "MSR",
+  "year": 2015,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q2",
+  "bibkey": "MSR2015_4",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Other"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "An experience report for CodeFlow Analytics"
+ },
+ {
+  "No": "p26",
+  "title": "Partitioning Composite Code Changes to Facilitate Code Review",
+  "conference": "MSR",
+  "year": 2015,
+  "Data": "Open data/Closed data",
+  "Replicatable": "no",
+  "Type": "Q1+Q2",
+  "bibkey": "MSR2015_5",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Automation",
+   "Program comprehension"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "An novel approach to partition composite changes"
+ },
+ {
+  "No": "p27",
+  "title": "\nWill my patch make it? And how fast? Case study on the Linux kernel",
+  "conference": "MSR",
+  "year": 2013,
+  "Data": "Open data",
+  "Replicatable": "no",
+  "Type": "Q1",
+  "bibkey": "MSR2013_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "Estimation of acceptable patches"
+ },
+ {
+  "No": "p28",
+  "title": "The impact of code review coverage and code review participation on software quality: a case study of the qt, VTK, and ITK projects",
+  "conference": "MSR",
+  "year": 2014,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "MSR2014_1",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Understanding"
+  ],
+  "summary": "The relationship between CR coverage and participation"
+ },
+ {
+  "No": "p29",
+  "title": "Modern code reviews in open-source projects: which problems do they fix?",
+  "conference": "MSR",
+  "year": 2014,
+  "Data": "Open data via link",
+  "Replicatable": "yes",
+  "Type": "Q1(Mixed)",
+  "bibkey": "MSR2014_2",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "Understanding of the practical benefits from the CR process"
+ },
+ {
+  "No": "p30",
+  "title": "On the Optimal Order of Reading Source Code Changes for Review",
+  "conference": "ICSME",
+  "year": 2017,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q2",
+  "bibkey": "ICSME2017_1",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Other"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "Investigation of  the order of reading source code changes for review"
+ },
+ {
+  "No": "p31",
+  "title": "Search-Based Peer Reviewers Recommendation in Modern Code Review",
+  "conference": "ICSME",
+  "year": 2016,
+  "Data": "Reference to dataset",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "ICSME2016_1",
+  "methodology": [
+   "Validation"
+  ],
+  "researcher": [
+   "Automation",
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "A search-based approach to recommend reviewers"
+ },
+ {
+  "No": "p32",
+  "title": "Why are Commits Being Reverted?: A Comparative Study of Industrial and Open Source Projects",
+  "conference": "ICSME",
+  "year": 2016,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q1+Q2",
+  "bibkey": "ICSME2016_2",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Communication"
+  ],
+  "summary": "Better understanding why commits are reverted"
+ },
+ {
+  "No": "p33",
+  "title": "Investigating code review quality: Do people and participation matter?",
+  "conference": "ICSME",
+  "year": 2015,
+  "Data": "Open data via link",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "ICSME2015_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Understanding"
+  ],
+  "summary": "An exploration on relationships between the reviewers\u2019 code inspections and a set of factors"
+ },
+ {
+  "No": "p34",
+  "title": "Who should review this change?: Putting text and file location analyses together for more accurate recommendations",
+  "conference": "ICSME",
+  "year": 2015,
+  "Data": "Reference to dataset",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "ICSME2015_2",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Automation",
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "An approach to recommend reviewers based on text and file location"
+ },
+ {
+  "No": "p35",
+  "title": "Four eyes are better than two: On the impact of code reviews on software quality",
+  "conference": "ICSME",
+  "year": 2015,
+  "Data": "Open data via link",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "ICSME2015_3",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Program comprehension"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Understanding"
+  ],
+  "summary": "An exploration on the  relationship between code review and bug introduction on the overall software quality"
+ },
+ {
+  "No": "p36",
+  "title": "Writing acceptable patches: An empirical study of open source project patches",
+  "conference": "ICSME",
+  "year": 2013,
+  "Data": "Open data/Closed data",
+  "Replicatable": "no",
+  "Type": "Q1+Q2",
+  "bibkey": "ICSME2013_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Other"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "A List of patch rejection reasons"
+ },
+ {
+  "No": "p37",
+  "title": "Effectiveness of code contribution: from patch-based to pull-request-based tools",
+  "conference": "FSE",
+  "year": 2016,
+  "Data": "Reference to dataset/Open data",
+  "Replicatable": "Mixed",
+  "Type": "Q1(Mixed)",
+  "bibkey": "FSE2016_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Communication"
+  ],
+  "summary": "Comparison of code contribution between patch-based and pull-based tools"
+ },
+ {
+  "No": "p38",
+  "title": "Factors influencing code review processes in industry",
+  "conference": "FSE",
+  "year": 2016,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q2",
+  "bibkey": "FSE2016_2",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Other"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "A novel case study in industries to see factors affecting CR"
+ },
+ {
+  "No": "p39",
+  "title": "Learning natural coding conventions ",
+  "conference": "FSE",
+  "year": 2014,
+  "Data": "Open data/Closed data",
+  "Replicatable": "no",
+  "Type": "Q1+Q2",
+  "bibkey": "FSE2014_1",
+  "methodology": [
+   "Validation",
+   "Solution"
+  ],
+  "researcher": [
+   "Automation",
+   "Program comprehension"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "A novel framework to improve stylistic consistency"
+ },
+ {
+  "No": "p40",
+  "title": "Identifying the characteristics of vulnerable code changes: an empirical study",
+  "conference": "FSE",
+  "year": 2014,
+  "Data": "Open data via link",
+  "Replicatable": "yes",
+  "Type": "Q1(Mixed)",
+  "bibkey": "FSE2014_2",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Automation"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Potential benefits"
+  ],
+  "summary": "Identification of security vulnerabilities in CR"
+ },
+ {
+  "No": "p41",
+  "title": "Let's talk about it: evaluating contributions through discussion in Github",
+  "conference": "FSE",
+  "year": 2014,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q2",
+  "bibkey": "FSE2014_3",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Communication"
+  ],
+  "summary": "Evaluation of contribution through discussion in GitHub"
+ },
+ {
+  "No": "p42",
+  "title": "Convergent contemporary software peer review practices",
+  "conference": "FSE",
+  "year": 2013,
+  "Data": "Reference to dataset",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "FSE2013_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Potential benefits"
+  ],
+  "summary": "One of the first studies of contemporary review in software firms"
+ },
+ {
+  "No": "p43",
+  "title": "How do software engineers understand code changes?: an exploratory study in industry",
+  "conference": "FSE",
+  "year": 2012,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q2",
+  "bibkey": "FSE2012_1",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Program comprehension"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "The first study on industrial practice in understanding code changes"
+ },
+ {
+  "No": "p44",
+  "title": "Do crosscutting concerns cause modularity problems?",
+  "conference": "FSE",
+  "year": 2012,
+  "Data": "Open data",
+  "Replicatable": "no",
+  "Type": "Q1",
+  "bibkey": "FSE2012_2",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Program comprehension"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "A novel case study in Mozilla to see crosscutting"
+ },
+ {
+  "No": "p45",
+  "title": "Semantics-assisted code review: An efficient tool chain and a user study",
+  "conference": "ASE",
+  "year": 2017,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q1+Q2",
+  "bibkey": "ASE2017_1",
+  "methodology": [
+   "Validation",
+   "Solution"
+  ],
+  "researcher": [
+   "Automation",
+   "Program comprehension"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "A semantic approach to assist CR"
+ },
+ {
+  "No": "p46",
+  "title": "Are developers aware of the architectural impact of their changes?",
+  "conference": "ASE",
+  "year": 2017,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q1(Mixed)",
+  "bibkey": "ASE2017_2",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Program comprehension"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "Understand the architectural impact of changes in CR"
+ },
+ {
+  "No": "p47",
+  "title": "Can automated pull requests encourage software developers to upgrade out-of-date dependencies?",
+  "conference": "ASE",
+  "year": 2017,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q1+Q2",
+  "bibkey": "ASE2017_3",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "Understanding whether these upgrading tools actually help developers"
+ },
+ {
+  "No": "p48",
+  "title": "Automatically recommending code reviewers based on their expertise: An empirical comparison",
+  "conference": "ASE",
+  "year": 2016,
+  "Data": "Reference to dataset",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "ASE2016_1",
+  "methodology": [
+   "Validation"
+  ],
+  "researcher": [
+   "Automation"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "An expertise-based approach to recommend reviewers"
+ },
+ {
+  "No": "p49",
+  "title": "Studying the Impact of Adopting Continuous Integration on the Delivery Time of Pull Requests",
+  "conference": "MSR",
+  "year": 2018,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Quantative",
+  "bibkey": "MSR2018_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Other"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Understanding"
+  ],
+  "summary": "Empirical evidence to support the claim that the adoption of CI is more quickly"
+ },
+ {
+  "No": "p50",
+  "title": "What Makes a Code Change Easier to Review: An Empirical Investigation on Code Change Reviewability",
+  "conference": "FSE",
+  "year": 2018,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Survey",
+  "bibkey": "FSE2018_1",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "Understanding of what makes a code change easier to review"
+ },
+ {
+  "No": "p51",
+  "title": "BLIMP Tracer: Integrating Build Impact Analysis with Code Review",
+  "conference": "ICSME",
+  "year": 2018,
+  "Data": "Open data",
+  "Replicatable": "no",
+  "Type": "Survey",
+  "bibkey": "ICSME2018_1",
+  "methodology": [
+   "Solution"
+  ],
+  "researcher": [
+   "Automation"
+  ],
+  "practitioner": [
+   "Quality Assurance"
+  ],
+  "summary": "Propose a build impact analysis system named BLIMP Tracer"
+ },
+ {
+  "No": "p52",
+  "title": "How do Multiple Pull Requests Change the Same Code: A Study of Competing Pull Requests in GitHub",
+  "conference": "ICSME",
+  "year": 2018,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Quantative",
+  "bibkey": "ICSME2018_2",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Communication"
+  ],
+  "summary": "An empirical study to explore competing pull requests"
+ },
+ {
+  "No": "p53",
+  "title": "How Maintainability Issues of Android Apps Evolve",
+  "conference": "ICSME",
+  "year": 2018,
+  "Data": "Reference to dataset/Open data",
+  "Replicatable": "Mixed",
+  "Type": "Quantative + Qualitative",
+  "bibkey": "ICSME2018_3",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Other"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Potential benefits"
+  ],
+  "summary": "An empirical study to understand maintainability issues of Android apps"
+ },
+ {
+  "No": "pj1",
+  "title": "Peer Review on Open-Source Software Projects: Parameters, Statistical Models, and Theory",
+  "conference": "TOSEM",
+  "year": 2014,
+  "Data": "Open data",
+  "Replicatable": "no",
+  "Type": "Q1",
+  "bibkey": "TOSEM2014_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Potential benefits"
+  ],
+  "summary": "Measure parameters for examination of peer review"
+ },
+ {
+  "No": "pj2",
+  "title": "Early prediction of merged code changes to prioritize reviewing tasks",
+  "conference": "EMSE",
+  "year": 2018,
+  "Data": "Open data",
+  "Replicatable": "no",
+  "Type": "Q1",
+  "bibkey": "EMSE2018_1",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Automation",
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "A novel tool to early predict merged code changes"
+ },
+ {
+  "No": "pj3",
+  "title": "Review participation in modern code review",
+  "conference": "EMSE",
+  "year": 2017,
+  "Data": "Reference to dataset",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "EMSE2017_1",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "Factors influence review participation in the CR process"
+ },
+ {
+  "No": "pj4",
+  "title": "Investigating technical and non-technical factors influencing modern code review",
+  "conference": "EMSE",
+  "year": 2016,
+  "Data": "Open data available via link",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "EMSE2016_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects",
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Potential benefits"
+  ],
+  "summary": "Technical and non-technical factors influencing CR"
+ },
+ {
+  "No": "pj5",
+  "title": "An empirical study of the impact of modern code review practices on software quality",
+  "conference": "EMSE",
+  "year": 2016,
+  "Data": "Reference to dataset",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "EMSE2016_2",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Program comprehension",
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Understanding",
+   "Potential benefits"
+  ],
+  "summary": "Relationship between CR practices and long-term software quality"
+ },
+ {
+  "No": "pj6",
+  "title": "Are Fix-Inducing Changes a Moving Target? A Longitudinal Case Study of Just-In-Time Defect Prediction",
+  "conference": "TSE",
+  "year": 2018,
+  "Data": "Open data via link",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "TSE2018_1",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Program comprehension",
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Understanding"
+  ],
+  "summary": "A study to identify fix-inducing changes using Just-In-Time models"
+ },
+ {
+  "No": "pj7",
+  "title": "Process Aspects and Social Dynamics of Contemporary Code Review: Insights from Open Source Development and Industrial Practice at Microsoft",
+  "conference": "TSE",
+  "year": 2016,
+  "Data": "Open data via link",
+  "Replicatable": "yes",
+  "Type": "Q2",
+  "bibkey": "TSE2016_1",
+  "methodology": [
+   "Survey"
+  ],
+  "researcher": [
+   "Socio-technical effects",
+   "Other"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Communication"
+  ],
+  "summary": "Better understanding of contemporary between OSS and industry"
+ },
+ {
+  "No": "pj8",
+  "title": "Automatically Recommending Peer Reviewers in Modern Code Review",
+  "conference": "TSE",
+  "year": 2016,
+  "Data": "Open data/Closed data",
+  "Replicatable": "no",
+  "Type": "Q1",
+  "bibkey": "TSE2016_2",
+  "methodology": [
+   "Validation"
+  ],
+  "researcher": [
+   "Automation"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "Propose an approach named cHRev to recommend reviewers"
+ },
+ {
+  "No": "pj9",
+  "title": "A large-scale empirical study of just-in-time quality assurance",
+  "conference": "TSE",
+  "year": 2013,
+  "Data": "Open data via link",
+  "Replicatable": "yes",
+  "Type": "Q1",
+  "bibkey": "TSE2013_1",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Quality Assurance",
+   "Potential benefits"
+  ],
+  "summary": "A large-scale study to investigate Just-In-Time Quality Assurance"
+ },
+ {
+  "No": "pj10",
+  "title": "Comparing the Defect Reduction Benefits of Code Inspection and Test-Driven Development",
+  "conference": "TSE",
+  "year": 2012,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Q1+Q2",
+  "bibkey": "TSE2012_1",
+  "methodology": [
+   "Validation"
+  ],
+  "researcher": [
+   "Program comprehension",
+   "Other"
+  ],
+  "practitioner": [
+   "Quality Assurance"
+  ],
+  "summary": "Comparative study for defect reduction benefits"
+ },
+ {
+  "No": "pj11",
+  "title": "Understanding inactive yet available assignees in GitHub",
+  "conference": "IST",
+  "year": 2017,
+  "Data": "Open data/Closed data",
+  "Replicatable": "no",
+  "Type": "Q1+Q2",
+  "bibkey": "IST2017_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding"
+  ],
+  "summary": "Analysis of inactive available assignees in GitHub"
+ },
+ {
+  "No": "pj12",
+  "title": "Who should comment on this pull request? Analyzing attributes for more accurate commenter recommendation in pull-based development",
+  "conference": "IST",
+  "year": 2017,
+  "Data": "Open data",
+  "Replicatable": "no",
+  "Type": "Q1",
+  "bibkey": "IST2017_2",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Automation",
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Potential benefits"
+  ],
+  "summary": "Propose commenter recommendation for pull request with useful attributes"
+ },
+ {
+  "No": "pj13",
+  "title": "Reviewer recommendation for pull-requests in GitHub: What can we learn from code review and bug assignment?",
+  "conference": "IST",
+  "year": 2016,
+  "Data": "Reference to dataset",
+  "Replicatable": "yes",
+  "Type": "Q1(Mixed)",
+  "bibkey": "IST2016_1",
+  "methodology": [
+   "Evaluation",
+   "Validation"
+  ],
+  "researcher": [
+   "Automation",
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Potential benefits"
+  ],
+  "summary": "Reviewer recommendation for pull request using techniques from code review and bug assignment"
+ },
+ {
+  "No": "pj14",
+  "title": "Comparative case studies of open source software peer review practices",
+  "conference": "IST",
+  "year": 2015,
+  "Data": "Open data",
+  "Replicatable": "no",
+  "Type": "Q1",
+  "bibkey": "IST2015_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Communication"
+  ],
+  "summary": " Compare differences of peer review practices across different OSS communities"
+ },
+ {
+  "No": "pj15",
+  "title": "what factors inluence the reviewer assignment to pull request?",
+  "conference": "IST",
+  "year": 2018,
+  "Data": "Open data",
+  "Replicatable": "no",
+  "Type": "Quantative + Qualitative",
+  "bibkey": "IST2018_1",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Understanding",
+   "Communication"
+  ],
+  "summary": "Understanding the factors that influence on assigning reviewers to pull requests and evaluating the extent of this influence"
+ },
+ {
+  "No": "pj16",
+  "title": "Does reviewer recommendation help developers?",
+  "conference": "TSE",
+  "year": 2018,
+  "Data": "Closed data",
+  "Replicatable": "no",
+  "Type": "Quantative + Survey",
+  "bibkey": "TSE2018_2",
+  "methodology": [
+   "Evaluation"
+  ],
+  "researcher": [
+   "Socio-technical effects"
+  ],
+  "practitioner": [
+   "Communication"
+  ],
+  "summary": "First study to evaluate a reviewer recommendation system"
+ }
+]
