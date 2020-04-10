@@ -18,7 +18,14 @@
    "Understanding",
    "Potential benefits"
   ],
-  "summary": "A novel case study in Google"
+  "summary": "A novel case study in Google",
+  "GoogleDriveurl": "link",
+  "classification": {
+            "Patch": [],
+            "Human": [],
+            "ReviewProcess": [],
+            "Mixed": [],
+        }
  },
  {
   "No": "p02",
