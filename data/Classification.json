@@ -4,12 +4,13 @@
         "title": "paper title",
         "link": true,
         "classification": {
-            "Process": ["Comment count"],
+            "Patch": ["Comment count"],
             "Human": [
                 "GitHub ID",
                 "Gender"
             ],
-            "Product": []
+            "ReviewProcess": [],
+            "Mixed": [],
         }
     },
     {
