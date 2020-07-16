@@ -11,17 +11,9 @@ Mapping Study for Code Review Papers in SE
 
 ### Preparing
 
-* Methodologies.csv
-* Contributions.csv
 * paper_names_premium.csv
 * paper_names_snowballed.csv
 * Data_Cat.csv
-
-#### Preprocessing
-
-* Source: src/Convert_table2paper.r
-* Input: Methodologies.csv, Contributions.csv
-* Output: papers.csv
 
 ### RQ1
 

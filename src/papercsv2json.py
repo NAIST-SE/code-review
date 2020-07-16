@@ -1,7 +1,6 @@
 """
 require: pip3 install pyyaml
 """
-import yaml
 import json
 import csv
 from collections import defaultdict

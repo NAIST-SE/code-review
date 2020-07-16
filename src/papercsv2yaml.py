@@ -1,8 +1,8 @@
 """
 require: pip3 install pyyaml
 """
-import yaml
 import csv
+from yaml import dump
 from collections import defaultdict
 
 paper_year = defaultdict(int)
@@ -29,4 +29,4 @@ with open("data/Data_Cat.csv", "r") as csvdata:
             "summary": paper["Summary"]
         }
         with open(f"docs/_publications/{bibkey}_{paper_year[bibkey]}.md", "w") as yamldata:
-            yamldata.write("---\n" + yaml.dump(output_format) + "---\n")
+            yamldata.write("---\n" + dump(output_format) + "---\n")
