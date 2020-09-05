@@ -1,0 +1,13 @@
+---
+bibkey: IEEE Software2012_1
+conference: IEEE Software
+layout: publication
+methodology:
+- Experience
+practitioner:
+- Potential benefits
+researcher: []
+summary: ''
+title: 'Contemporary Peer Review in Action: Lessons from Open Source Development'
+year: 2012
+---

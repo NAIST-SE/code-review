@@ -1,0 +1,14 @@
+---
+bibkey: IEEE Software2017_1
+conference: IEEE Software
+layout: publication
+methodology:
+- Survey
+practitioner:
+- Understanding
+- Potential benefits
+researcher: []
+summary: ''
+title: 'Code Reviewing in the Trenches: Challenges and Best Practices'
+year: 2017
+---

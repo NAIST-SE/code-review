@@ -9,6 +9,18 @@ Mapping Study for Code Review Papers in SE
 
 ## Replication of each Research Question
 
+### Environment
+
+* Python3
+* R
+
+* pyyaml
+
+```sh
+pip3 install pyyaml
+```
+
+
 ### Preparing
 
 * paper_names_premium.csv
