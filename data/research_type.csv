@@ -1,32 +1,35 @@
 Category,Methodology,Subclass,size
 Other,Survey,Researcher,9
-Socio-technical effects,Survey,Researcher,3
+Socio-technical effects,Survey,Researcher,4
 Socio-technical effects,Evaluation,Researcher,48
-Program comprehension,Validation,Researcher,6
+Program comprehension,Validation,Researcher,8
+Socio-technical effects,Validation,Researcher,18
 Program comprehension,Survey,Researcher,2
 Program comprehension,Evaluation,Researcher,11
-Automation,Validation,Researcher,9
-Socio-technical effects,Validation,Researcher,4
+Program comprehension,Solution,Researcher,10
+Program comprehension,Experience,Researcher,1
+Automation,Validation,Researcher,14
+Automation,Solution,Researcher,10
+Socio-technical effects,Solution,Researcher,2
 Other,Evaluation,Researcher,4
 Automation,Evaluation,Researcher,13
-Automation,Solution,Researcher,5
+Socio-technical effects,Experience,Researcher,1
 Other,Validation,Researcher,1
-Socio-technical effects,,Researcher,1
-Program comprehension,Solution,Researcher,5
-Understanding,Survey,Practitioner,13
+Understanding,Survey,Practitioner,16
 Potential benefits,Survey,Practitioner,7
-Communication,Survey,Practitioner,2
+Communication,Survey,Practitioner,3
 Quality assurance,Evaluation,Practitioner,14
 Understanding,Evaluation,Practitioner,53
 Communication,Evaluation,Practitioner,13
-Understanding,Validation,Practitioner,4
+Understanding,Validation,Practitioner,12
+Quality assurance,Validation,Practitioner,8
+Communication,Validation,Practitioner,1
 Quality assurance,Survey,Practitioner,2
-Potential benefits,Validation,Practitioner,11
+Quality assurance,Solution,Practitioner,3
+Quality assurance,Experience,Practitioner,1
+Potential benefits,Validation,Practitioner,18
+Potential benefits,Solution,Practitioner,6
 Potential benefits,Evaluation,Practitioner,21
-Quality assurance,Validation,Practitioner,2
-Quality assurance,Solution,Practitioner,2
+Understanding,Solution,Practitioner,4
+Understanding,Experience,Practitioner,2
 Potential benefits,Experience,Practitioner,2
-Understanding,,Practitioner,1
-Understanding,Experience,Practitioner,1
-Understanding,Solution,Practitioner,3
-Potential benefits,Solution,Practitioner,1

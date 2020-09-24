@@ -10,24 +10,26 @@ with open("data/Data_Cat.csv", "r") as papers_file:
     research_papers = [{
         "id": x["No"],
          "researcher": [x["Researcher"], x["Researcher2"]],
-         "types": x["Methodology"]
+         "types": [x["Methodology"], x["Methodology2"], x["Methodology3"]]
     } for x in papers]
     practice_papers = [{
         "id": x["No"],
          "practitioner": [x["Practitioner"], x["Practitioner2"], x["Practitioner3"]],
-         "types": x["Methodology"]
+         "types": [x["Methodology"], x["Methodology2"], x["Methodology3"]]
     } for x in papers]
     # research_papers = [dict(y) for y in set(tuple(x.items()) for x in research_papers)]
     # practice_papers = [dict(y) for y in set(tuple(x.items()) for x in practice_papers)]
 
     for paper in research_papers:
         for subclass in [x for x in paper['researcher'] if len(x) > 0]:
-            research_type = subclass + ",," + paper["types"] + ",," + "Researcher"
-            research_types[research_type] +=  1
+            for paper_type in [x for x in paper["types"] if len(x) > 0]:
+                research_type = subclass + ",," + paper_type + ",," + "Researcher"
+                research_types[research_type] +=  1
     for paper in practice_papers:
         for subclass in [x for x in paper['practitioner'] if len(x) > 0]:
-            practice_type = subclass + ",," + paper["types"] + ",," + "Practitioner"
-            practice_types[practice_type] +=  1
+            for paper_type in [x for x in paper["types"] if len(x) > 0]:
+                practice_type = subclass + ",," + paper_type + ",," + "Practitioner"
+                practice_types[practice_type] +=  1
 
     with open("data/research_type.csv", "w") as output_file:
         writer = csv.writer(output_file)
