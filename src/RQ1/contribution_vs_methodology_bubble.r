@@ -4,10 +4,13 @@ library(reshape2)
 
 dataset <- read.csv("data/research_type.csv", header=TRUE, sep=",")
 
+
+contributions <- c("Other", "Communication", "Quality assurance","Program comprehension","Automation","Potential benefits", "Socio-technical effects",   "Understanding")
+
 g <- ggplot(dataset, aes(x=Category, y=Methodology, size=as.numeric(size),colour=Subclass)) + 
 geom_point() +
 scale_size_continuous(range=c(1,20), name="Count", breaks=c(0, 10, 20, 30)) +
-scale_x_discrete(limits=c("Automation","Program comprehension", "Socio-technical effects","Other", "Communication","Potential benefits","Quality assurance", "Understanding"))+
+scale_x_discrete(limits=contributions)+
 scale_colour_grey() +
 theme_light() + 
 theme(axis.title=element_text(size=18),
