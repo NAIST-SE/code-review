@@ -25,10 +25,10 @@ email: wang.dong.vt8@is.naist.jp
 
 
 collections:
-  publications:
+  - publications:
     output: true
     permalink: /:collection/:path/
-  dataset:
+  - dataset:
     output: true
     permalink: /:collection/:path/
 

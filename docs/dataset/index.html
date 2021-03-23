@@ -22,7 +22,8 @@ permalink: /dataset/
          <th onclick="sortTable(2)">Source url</th>
          <th onclick="sortTable(3)">Type</th>
          </thead><tbody>
-  {% for datasets in site.dataset %}
+  {% assign datasetByTitle = site.dataset | sort: "title" | group_by: "title" %}
+  {% for datasets in datasetByTitle %}
   {% for dataset in datasets.items %}
   <tr>
     <td><a href="{{ dataset.id | prepend: site.baseurl }}">{{dataset.title}}</a>
