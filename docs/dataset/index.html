@@ -22,9 +22,9 @@ permalink: /dataset/
          <th onclick="sortTable(2)">Source url</th>
          <th onclick="sortTable(3)">Type</th>
          </thead><tbody>
-  <!-- {% assign publicationsByYear = site.publications | sort: "year" | group_by: "year" %}
-  {% for year in publicationsByYear reversed %}
-  {% for publication in year.items %} -->
+  {% assign publications = site.publications %}
+  {% for publication in publications %}
+  {% for publication in publication.items %}
   <tr>
     <td><a href="{{ dataset.id | prepend: site.baseurl }}">{{dataset.title}}</a>
       <!-- <span class="externallinks">
