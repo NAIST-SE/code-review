@@ -18,6 +18,7 @@ with open("data/Replicated.csv", "r") as csvdata:
             output_format = {
                 "title": "" if len(titles) == 0 else titles[0]['Title'],
                 "id": id,
+                "publication_id": id,
                 "link": data["link"] if "link" in data else "None",
                 "source": data["source"] if "sourc" in data else "None",
                 "type": data["type"] if "type" in data and data["type"] != "null" else "None",
