@@ -18,9 +18,9 @@ with open("data/Replicated.csv", "r") as csvdata:
             output_format = {
                 "title": "" if len(titles) == 0 else titles[0]['Title'],
                 "id": id,
-                "link": data["link"],
-                "source": data["source"],
-                "type": data["type"],
+                "link": data["link"] if "link" in data else "None",
+                "source": data["source"] if "sourc" in data else "None",
+                "type": data["type"] if "type" in data and data["type"] != "null" else "None",
             }
             with open(f"docs/_dataset/{id}.md", "w") as yamldata:
                 yamldata.write("---\n" + dump(output_format) + "---\n")
