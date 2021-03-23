@@ -26,12 +26,12 @@ permalink: /dataset/
   {% for datasets in datasetByTitle %}
   {% for dataset in datasets.items %}
   <tr>
-    <td><a href="{{site.url}}/publications/{{dataset.id}}">{{dataset.title}}</a>
-      <span class="externallinks">
+    <td><a href="{{site.baseurl}}/publications/{dataset.id}">{{dataset.title}}</a>
+      <!-- <span class="externallinks">
         &nbsp;<a href='http://scholar.google.com/scholar?q={{ dataset.title }}' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
         <a href='https://www.semanticscholar.org/search?q={{ dataset.title }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
         <a href='http://academic.microsoft.com/#/search?iq={{ dataset.title | uri_escape }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-      </span>
+      </span> -->
     </td>
     <td><a href="{{ dataset.link }}"></a></td>
     <td><a href="{{ dataset.source }}"></a></td>
