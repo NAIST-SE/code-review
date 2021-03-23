@@ -28,6 +28,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  dataset:
+    output: true
+    permalink: /:collection/:path/
 
 # Build settings
 markdown: kramdown

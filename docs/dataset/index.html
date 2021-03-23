@@ -1,0 +1,112 @@
+---
+layout: page
+title: Dataset
+permalink: /dataset/
+---
+<table>
+  <tbody>
+   <tr>
+       <td colspan="5">
+           <a href="https://github.com/NAIST-SE/code-review.github.io/blob/master/docs/CONTRIBUTING.md#adding-your-PAPER" class="d-flex flex-column flex-1 rounded-1 border border-dashed border-gray-dark link-gray no-underline">
+             {% octicon plus class:"v-align-text-bottom" %}
+             Submit your paper as a pull request
+           <p class="lh-condensed px-3 pb-3">Is your paper ready for prime time? Submit it to the paper directory.</p>
+         </a>
+       </td>
+         </tr>
+ </tbody>
+</table>
+<table id="allPapers">
+  <thead><th onclick="sortTable(0)">Paper</th>
+         <th onclick="sortTable(1)">Link url</th>
+         <th onclick="sortTable(2)">Source url</th>
+         <th onclick="sortTable(3)">Type</th>
+         </thead><tbody>
+  <!-- {% assign publicationsByYear = site.publications | sort: "year" | group_by: "year" %}
+  {% for year in publicationsByYear reversed %}
+  {% for publication in year.items %} -->
+  <tr>
+    <td><a href="{{ dataset.id | prepend: site.baseurl }}">{{dataset.title}}</a>
+      <!-- <span class="externallinks">
+        &nbsp;<a href='http://scholar.google.com/scholar?q={{ publication.title }}' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+        <a href='https://www.semanticscholar.org/search?q={{ publication.title }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+        <a href='http://academic.microsoft.com/#/search?iq={{ publication.title | uri_escape }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+      </span> -->
+    </td>
+    <td><a href="{{ dataset.link }}"></a></td>
+    <td><a href="{{ dataset.source }}"></a></td>
+    <td>{{ dataset.type }}</td>
+  </tr>
+  {% endfor %}
+  {% endfor %}
+</tbody></table>
+<table>
+<tbody>
+  <tr>
+      <td colspan="5">
+          <a href="https://github.com/NAIST-SE/code-review.github.io/blob/master/docs/CONTRIBUTING.md#adding-your-PAPER" class="d-flex flex-column flex-1 rounded-1 border border-dashed border-gray-dark link-gray no-underline">
+            {% octicon plus class:"v-align-text-bottom" %}
+            Submit your paper as a pull request
+          <p class="lh-condensed px-3 pb-3">Is your paper ready for prime time? Submit it to the paper directory.</p>
+        </a>
+      </td>
+        </tr>
+</tbody>
+</table>
+
+<script>
+  function sortTable(n) {
+    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    table = document.getElementById("allPapers");
+    switching = true;
+    // Set the sorting direction to ascending:
+    dir = "asc"; 
+    /* Make a loop that will continue until
+    no switching has been done: */
+    while (switching) {
+      // Start by saying: no switching is done:
+      switching = false;
+      rows = table.rows;
+      /* Loop through all table rows (except the
+      first, which contains table headers): */
+      for (i = 1; i < (rows.length - 1); i++) {
+        // Start by saying there should be no switching:
+        shouldSwitch = false;
+        /* Get the two elements you want to compare,
+        one from current row and one from the next: */
+        x = rows[i].getElementsByTagName("TD")[n];
+        y = rows[i + 1].getElementsByTagName("TD")[n];
+        /* Check if the two rows should switch place,
+        based on the direction, asc or desc: */
+        if (dir == "asc") {
+          if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+            // If so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        } else if (dir == "desc") {
+          if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+            // If so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        }
+      }
+      if (shouldSwitch) {
+        /* If a switch has been marked, make the switch
+        and mark that a switch has been done: */
+        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+        switching = true;
+        // Each time a switch is done, increase this count by 1:
+        switchcount ++; 
+      } else {
+        /* If no switching has been done AND the direction is "asc",
+        set the direction to "desc" and run the while loop again. */
+        if (switchcount == 0 && dir == "asc") {
+          dir = "desc";
+          switching = true;
+        }
+      }
+    }
+  }
+  </script>
