@@ -1,5 +1,5 @@
 PaperId,link,source,from,available
-p03,https://cs.uwaterloo.ca/$\sim$okononen/shopify,,,No
+p03,https://cs.uwaterloo.ca/~okononen/shopify,,,No
 p04,https://doi.org/10.5281/zenodo.1172419,,Gerrit,Yes
 p05,http://dijkstra.cs.virginia.edu/fmri/,,,No
 p06,https://dl.acm.org/doi/10.5555/2487085.2487096,,,No
@@ -28,9 +28,9 @@ p65,http://github.com/patanamon/revfinder,http://github.com/patanamon/revfinder,
 p66,http://ser.soccerlab.polymtl.ca/ser-repos/public/tr-data/2015-saner-code-reviews.zip,,Gerrit,Other
 p67,https://goo.gl/KjTpxp,,Travis-CI,Yes
 p67,https://github.com/felipeebert/confusion-code-reviews,https://github.com/felipeebert/confusion-in-code-reviews,Gerrit,Yes
-p70,http://gsyc.es/$\sim$jgb/repro/2015-msr-grimoire-data,,,No
+p70,http://gsyc.es/~jgb/repro/2015-msr-grimoire-data,,,No
 p72,https://zenodo.org/record/3354510\#.X1i3W2czbLA,,Gerrit,Yes
-p73,https://www.mediafire.com/folder/3b5ey849y9flx/Test-Driven\_Code\_Review\_-\_Online\_Appendix,,Own,Yes
+p73,https://www.mediafire.com/folder/3b5ey849y9flx/Test-Driven_Code_Review_-_Online_Appendix,,Own,Yes
 p76,https://tinyurl.com/y3yk6oey,https://github.com/Tbabm/PRSummarizer,GitHub,Yes
 p79,https://github.com/software-rebels/ReviewLinkageGraph,,Gerrit,Yes
 pj3,https://github.com/SAILResearch/replication-participation_code_review,https://github.com/SAILResearch/replication-participation_code_review,Gerrit,Yes
