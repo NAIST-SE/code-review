@@ -20,7 +20,9 @@ with open("data/Replicated.csv", "r") as csvdata:
                 "id": id,
                 "publication_id": id,
                 "link": data["link"] if "link" in data else "None",
-                "source": data["source"] if "sourc" in data else "None",
+                "source": data["source"] if "source"  and data["source"] != "" in data else "None",
+                "from": data["from"] if "from" in data and data["from"] != "" else "None",
+                "available": data["available"],
                 "type": data["type"] if "type" in data and data["type"] != "null" else "None",
             }
             with open(f"docs/_dataset/{id}.md", "w") as yamldata:

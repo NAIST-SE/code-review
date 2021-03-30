@@ -1,4 +1,6 @@
 ---
+available: 'Yes'
+from: Gerrit
 id: pj6
 link: https://github.com/software-rebels/JITMovingTarget
 publication_id: pj6

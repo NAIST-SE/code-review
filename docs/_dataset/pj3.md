@@ -1,6 +1,8 @@
 ---
+available: 'Yes'
+from: Gerrit
 id: pj3
-link: http://sailhome.cs.queensu.ca/replication/review\_participation/
+link: https://github.com/SAILResearch/replication-participation_code_review
 publication_id: pj3
 source: None
 title: Review participation in modern code review
