@@ -18,10 +18,10 @@ permalink: /dataset/
 </table>
 <table id="allPapers">
   <thead><th onclick="sortTable(0)">Paper</th>
-         <th onclick="sortTable(1)">Link url</th>
-         <th onclick="sortTable(2)">Script url</th>
-         <th onclick="sortTable(3)">Source</th>
-         <th onclick="sortTable(4)">Available</th>
+         <th onclick="sortTable(1)">Link URL</th>
+         <th onclick="sortTable(2)">Script to Collect Data</th>
+         <th onclick="sortTable(3)">Host</th>
+         <th onclick="sortTable(4)">Accessible</th>
 
          </thead><tbody>
   {% assign datasetByTitle = site.dataset | sort: "title" | group_by: "title" %}
@@ -37,7 +37,7 @@ permalink: /dataset/
     </td>
     <td><a href="{{ dataset.link }}"></a>{{ dataset.link }}</td>
     <td><a href="{{ dataset.source }}"></a>{{ dataset.source }}</td>
-    <td>{{ dataset.from }}</td>
+    <td>{{ dataset.host }}</td>
     <td>{{ dataset.available }}</td>
   </tr>
   {% endfor %}
