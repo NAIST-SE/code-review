@@ -31,6 +31,9 @@ collections:
   dataset:
     output: true
     permalink: /:collection/:path/
+  metricses:
+    output: true
+    permalink: /:collection/:path/
 
 # Build settings
 markdown: kramdown
