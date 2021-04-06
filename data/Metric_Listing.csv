@@ -1,0 +1,458 @@
+Paper Id,Metric,Metric Set,Target,Topic
+p67,PR Builds (# of builds over the PR discussion),Build Related,Others,CI and review
+p67,Failed Builds (% failed builds during the PR discussion),Build Related,Others,CI and review
+p67,First Build Status ,Build Related,Others,CI and review
+p67,Last Build Status,Build Related,Others,CI and review
+p49,churn,CODE,Product,CI and review
+p67,Additions (# of lines added),CODE,Product,CI and review
+p67,Deletions (#of lines deleted),CODE,Product,CI and review
+p60,Patch Size (LOC added and deleted),CODE,Product,non-technical and code review
+p03,PR size,CODE,Product,predict acceptance 
+p27,chunk_in (accept),CODE,Product,predict acceptance 
+p27,chunk_out (reject),CODE,Product,predict acceptance 
+p27,churn,CODE,Product,predict acceptance 
+pj2,lines added num,CODE,Product,predict acceptance 
+pj2,lines deleted num,CODE,Product,predict acceptance 
+pj2,segs added num,CODE,Product,predict acceptance 
+pj2,segs deleted num,CODE,Product,predict acceptance 
+pj2,segs updated num,CODE,Product,predict acceptance 
+p06,churn,CODE,Product,quality assurance
+p06,size,CODE,Product,quality assurance
+p10,Churn,CODE,Product,quality assurance
+p10,complexity,CODE,Product,quality assurance
+p10,Patch_SD,CODE,Product,quality assurance
+p10,relative_churn,CODE,Product,quality assurance
+p10,Size,CODE,Product,quality assurance
+p23,Churn,CODE,Product,quality assurance
+p28,churn,CODE,Product,quality assurance
+p28,complexity,CODE,Product,quality assurance
+p28,size,CODE,Product,quality assurance
+p33,chunks,CODE,Product,quality assurance
+p33,size(LOC]),CODE,Product,quality assurance
+p57,Ave LOC of patch,CODE,Product,quality assurance
+p57,Ave code complexity of patch,CODE,Product,quality assurance
+p57,Ave LOC added of patch,CODE,Product,quality assurance
+p57,Ave LOC deleted of patch,CODE,Product,quality assurance
+p64,Lines of code (LOC).,CODE,Product,quality assurance
+p64,Complexity,CODE,Product,quality assurance
+p64,Sum of added and removed lines of code,CODE,Product,quality assurance
+p70,#lines of code added,CODE,Product,quality assurance
+p70,#lines of code deleted,CODE,Product,quality assurance
+p70,#lines of in a file before the change,CODE,Product,quality assurance
+pj5,change entropy,CODE,Product,quality assurance
+pj5,churn,CODE,Product,quality assurance
+pj5,complexity,CODE,Product,quality assurance
+pj5,size,CODE,Product,quality assurance
+pj6,lines added,CODE,Product,quality assurance
+pj6,lines deleted,CODE,Product,quality assurance
+pj6,unique changes,CODE,Product,quality assurance
+pj9,line before change,CODE,Product,quality assurance
+pj9,lines added,CODE,Product,quality assurance
+pj9,lines deleted,CODE,Product,quality assurance
+pj28,Patch Size,CODE,Product,review participation
+pj3,churn,CODE,Product,review participation
+p15,LOC,CODE,Product,review process
+p62,Size (size of a patch),CODE,Product,review process
+p29,Code Churn,CODE,Product,review process prediction
+p52,# added lines,CODE,Product,review process prediction
+p52,# competing lines,CODE,Product,review process prediction
+p52,# deleted lines,CODE,Product,review process prediction
+p52,LoC of comments,CODE,Product,review process prediction
+p80,Class churn,CODE,Product,review process prediction
+p80,Method churn,CODE,Product,review process prediction
+p80,LOC Changed,CODE,Product,review process prediction
+p80,Conditional statements churn,CODE,Product,review process prediction
+p80,Loop churn,CODE,Product,review process prediction
+p80,Class Member Churn,CODE,Product,review process prediction
+p80,Is It Refactor,CODE,Product,review process prediction
+p80,Reference churn,CODE,Product,review process prediction
+pj30,test churn,CODE,Product,review process prediction
+pj30,src churn,CODE,Product,review process prediction
+pj30,"ccn added, ccn deleted",CODE,Product,review process prediction
+pj30,comments added in the source code,CODE,Product,review process prediction
+p16,Commit Size,CODE,Product,"technical, non-technical and code review"
+pj4,patch size,CODE,Product,"technical, non-technical and code review"
+p04,Churn,CODE,Product,testing and code review
+p04,Comulative churn,CODE,Product,testing and code review
+p04,Size,CODE,Product,testing and code review
+pj28,Familiarity between the Invited Reviewer and the Patch Author,collaboration,Others,review participation
+pj30,social distance,collaboration,Others,review process prediction
+p16,Social Distance,collaboration,Others,"technical, non-technical and code review"
+p16,Collaborator Status,collaboration,Others,"technical, non-technical and code review"
+p16,Collaborators,collaboration,Others,"technical, non-technical and code review"
+pj2,degree centrality,collaboration network,Others,predict acceptance 
+pj2,closeness centrality,collaboration network,Others,predict acceptance 
+pj2,betweenness centrality,collaboration network,Others,predict acceptance 
+pj2,eigenvector centrality,collaboration network,Others,predict acceptance 
+pj2,clustering coefficient,collaboration network,Others,predict acceptance 
+p49,# comments,COMMENTS,Process,CI and review
+p49,inteval comments,COMMENTS,Process,CI and review
+p67,Comments ,COMMENTS,Process,CI and review
+p67,Review Comments,COMMENTS,Process,CI and review
+p03,# author comments,COMMENTS,Process,predict acceptance 
+p03,# author in-code comments,COMMENTS,Process,predict acceptance 
+p03,# comments,COMMENTS,Process,predict acceptance 
+p03,# in-code comments,COMMENTS,Process,predict acceptance 
+p27,#review messages,COMMENTS,Process,predict acceptance 
+p10,Discussion length,COMMENTS,Process,quality assurance
+p10,Hastily,COMMENTS,Process,quality assurance
+p10,No-Discuss,COMMENTS,Process,quality assurance
+p23,discussion length,COMMENTS,Process,quality assurance
+p23,reviews no feedback,COMMENTS,Process,quality assurance
+p23,review disagreement,COMMENTS,Process,quality assurance
+p33,# comments,COMMENTS,Process,quality assurance
+p33,# rev comment,COMMENTS,Process,quality assurance
+p33,# writer comments,COMMENTS,Process,quality assurance
+p33,avg # comment per dev,COMMENTS,Process,quality assurance
+p57,number of reviewer's comments on patch,COMMENTS,Process,quality assurance
+p64,Typical discussion length,COMMENTS,Process,quality assurance
+p70,#inline comments,COMMENTS,Process,quality assurance
+p70,#comments,COMMENTS,Process,quality assurance
+p70,comment length,COMMENTS,Process,quality assurance
+p70,Comment Sentiment,COMMENTS,Process,quality assurance
+pj6,comments,COMMENTS,Process,quality assurance
+pj3,discussion length of prior patches,COMMENTS,Process,review participation
+p15,# of comments,COMMENTS,Process,review process
+p15,word,COMMENTS,Process,review process
+p21,conceptual similarity,COMMENTS,Process,review process comments
+p21,reading ease,COMMENTS,Process,review process comments
+p21,word ratio,COMMENTS,Process,review process comments
+p21,question ratio,COMMENTS,Process,review process comments
+p21,code element ratio,COMMENTS,Process,review process comments
+p52,# messages,COMMENTS,Process,review process prediction
+p16,Comments,COMMENTS,Process,"technical, non-technical and code review"
+p27,Linus accept,DECISION,Process,predict acceptance 
+pj15,status_pull,DECISION,Process,review participation
+p52,merge or not,DECISION,Process,review process prediction
+p80,Is it a merge change,DECISION,Process,review process prediction
+p80,Is it a deprecate change,DECISION,Process,review process prediction
+p60,Priority (bug),DEFECTS,Process,non-technical and code review
+p27,bug fix?,DEFECTS,Process,predict acceptance 
+p10,prior defects,DEFECTS,Process,quality assurance
+p28,prior defects,DEFECTS,Process,quality assurance
+p33,priority,DEFECTS,Process,quality assurance
+p33,severity,DEFECTS,Process,quality assurance
+p57,Severity of associated bug-report,DEFECTS,Process,quality assurance
+p57,Priority of associated bug-report,DEFECTS,Process,quality assurance
+p57,numbe of resolved issues,DEFECTS,Process,quality assurance
+pj5,prior defects,DEFECTS,Process,quality assurance
+pj3,# prior defects,DEFECTS,Process,review participation
+p62,Post review bugs,DEFECTS,Process,review process
+pj4,priority,DEFECTS,Process,"technical, non-technical and code review"
+p04,prior defects,DEFECTS,Process,testing and code review
+p49,description size,DESCRIPTION,Process,CI and review
+pj2,msg_length,DESCRIPTION,Process,predict acceptance 
+pj2,has_bug,DESCRIPTION,Process,predict acceptance 
+pj2,has_feature,DESCRIPTION,Process,predict acceptance 
+pj2,has_improve,DESCRIPTION,Process,predict acceptance 
+pj2,has_document,DESCRIPTION,Process,predict acceptance 
+pj2,has_refector,DESCRIPTION,Process,predict acceptance 
+pj9,purpose,DESCRIPTION,Product,quality assurance
+pj3,description length,DESCRIPTION,Process,review participation
+pj3,purpose,DESCRIPTION,Process,review participation
+p29,Task Type,DESCRIPTION,Process,review process prediction
+p80,PR description word count.,DESCRIPTION,Process,review process prediction
+p80,New feature,DESCRIPTION,Process,review process prediction
+p80,PR Title Word Count,DESCRIPTION,Process,review process prediction
+p80,Is it Bug Fix,DESCRIPTION,Process,review process prediction
+p67,Contains Fix (whether the PR aims at fixing an issue),DESCRIPTON,Process,CI and review
+p70,is the change a defect fix?,DESCRIPTON,Process,quality assurance
+pj30,bug fix,DESCRIPTON,Process,review process prediction
+pj30,title length,DESCRIPTON,Process,review process prediction
+pj30,description length,DESCRIPTON,Process,review process prediction
+pj30,readability,DESCRIPTON,Process,review process prediction
+p27,year/month/week/day,email metrics,Others,predict acceptance 
+p27,# CC people,email metrics,Others,predict acceptance 
+p27,message length,email metrics,Others,predict acceptance 
+p27,Quarter of release window in which patch is submitted,email metrics,Others,predict acceptance 
+p27,thread first?,email metrics,Others,predict acceptance 
+p27,first patch in thread?,email metrics,Others,predict acceptance 
+p27,# emails between thread and patch,email metrics,Others,predict acceptance 
+p27,# people participating,email metrics,Others,predict acceptance 
+p27,Discussion time,email metrics,Others,predict acceptance 
+p27,right_venue?,email metrics,Others,predict acceptance 
+p27,mail sent to general mailing list?,email metrics,Others,predict acceptance 
+p49,contributor experience,EXPERIENCE,Human,CI and review
+p49,contributor integration,EXPERIENCE,Human,CI and review
+p67,Accept rate (previously merged PR from the same author),EXPERIENCE,Human,CI and review
+p67,Core Member,EXPERIENCE,Human,CI and review
+p67,Contribution Rate (% of authors commits before PR),EXPERIENCE,Process,CI and review
+p60,Reviewer Activity (number of completed reviews),EXPERIENCE,Human,non-technical and code review
+p60,Patch Writer Experience,EXPERIENCE,Human,non-technical and code review
+p03,PR author experience,EXPERIENCE,Human,predict acceptance 
+p27,author accepted,EXPERIENCE,Human,predict acceptance 
+p27,author submissions,EXPERIENCE,Human,predict acceptance 
+p27,Number of chuns where commiter name matching,EXPERIENCE,Human,predict acceptance 
+pj2,# reviews ,EXPERIENCE,Human,predict acceptance 
+pj2,experience and expertise,EXPERIENCE,Human,predict acceptance 
+pj2,change_num by the owner ,EXPERIENCE,Human,predict acceptance 
+pj2,recent_change_num,EXPERIENCE,Human,predict acceptance 
+pj2,subsystem_change_num,EXPERIENCE,Human,predict acceptance 
+pj2,review_num (assigned to inspect),EXPERIENCE,Human,predict acceptance 
+pj2,merge_ratio (merged patches by the owner),EXPERIENCE,Human,predict acceptance 
+pj2,recent_merge_ratio,EXPERIENCE,Human,predict acceptance 
+pj2,subsystem_merge_ratio,EXPERIENCE,Human,predict acceptance 
+p10,reviewed_churn,EXPERIENCE,Human,quality assurance
+p10,reviewed_commit,EXPERIENCE,Human,quality assurance
+p28,Proportion of self-approved changes,EXPERIENCE,Human,quality assurance
+p28,Proportion of hastily reviewed changes,EXPERIENCE,Human,quality assurance
+p28,Proportion of changes without discussions,EXPERIENCE,Human,quality assurance
+p33,reviewer experience,EXPERIENCE,Human,quality assurance
+p33,reviewer experience for module,EXPERIENCE,Human,quality assurance
+p33,writer experience,EXPERIENCE,Human,quality assurance
+p33,writer experience for module,EXPERIENCE,Human,quality assurance
+p64,Proportion of self-approved changes,EXPERIENCE,Human,quality assurance
+p64,Proportion of hastily reviewed changes,EXPERIENCE,Human,quality assurance
+p64,Proportion of changes without discussion,EXPERIENCE,Human,quality assurance
+p70,Commenter Experience,EXPERIENCE,Human,quality assurance
+p70,reporter experience,EXPERIENCE,Human,quality assurance
+p70,reviewer experience,EXPERIENCE,Human,quality assurance
+p70,#prior commits by the developer,EXPERIENCE,Human,quality assurance
+p70,#prior commits by the developer by their age,EXPERIENCE,Human,quality assurance
+p70,#prior commits by the developer on a subsystem,EXPERIENCE,Human,quality assurance
+pj6,awareness,EXPERIENCE,Human,quality assurance
+pj6,prior changes,EXPERIENCE,Human,quality assurance
+pj6,recent changes,EXPERIENCE,Human,quality assurance
+pj6,subsystem changes,EXPERIENCE,Human,quality assurance
+pj9,developer experiencce on subsystem,EXPERIENCE,Human,quality assurance
+pj9,experience,EXPERIENCE,Human,quality assurance
+pj9,recent experience,EXPERIENCE,Human,quality assurance
+pj15,recent_committer,EXPERIENCE,Human,review participation
+pj28,Reviewer Code Authoring Experience,EXPERIENCE,Human,review participation
+pj28,Reviewer Reviewing Experience,EXPERIENCE,Human,review participation
+pj28,Patch Author Code Authoring Experience,EXPERIENCE,Human,review participation
+pj28,Patch Author Reviewing Experience,EXPERIENCE,Human,review participation
+pj3,# dir patches of reviewers,EXPERIENCE,Human,review participation
+pj3,# dir patches of authors,EXPERIENCE,Human,review participation
+pj3,# prior patches of reviewers,EXPERIENCE,Human,review participation
+pj3,# reviewers of prior patches,EXPERIENCE,Human,review participation
+pj3,recent patches of reviewers,EXPERIENCE,Human,review participation
+pj3,recent patches of authors,EXPERIENCE,Human,review participation
+p15,prev_pullreqs (# pull requests submitted by a developer),EXPERIENCE,Human,review process
+p15,reqeuster_succ_rate (merged prs by a developer),EXPERIENCE,Human,review process
+p21,library experience,EXPERIENCE,Human,review process comments
+p52,# merged by previous developer,EXPERIENCE,Human,review process prediction
+p80,Avg age of PRs Of this developer,EXPERIENCE,Human,review process prediction
+p80,Age of the PR author in current team,EXPERIENCE,Human,review process prediction
+p80,Age of the PR author in the repository,EXPERIENCE,Human,review process prediction
+p80,Age of the PR author in Microsoft,EXPERIENCE,Human,review process prediction
+pj30,contributor succ rate.,EXPERIENCE,Human,review process prediction
+pj30,is reviewer.,EXPERIENCE,Human,review process prediction
+pj30,followers,EXPERIENCE,Human,review process prediction
+pj4,patch writer experience,EXPERIENCE,Human,"technical, non-technical and code review"
+pj4,reviewer activity,EXPERIENCE,Human,"technical, non-technical and code review"
+p73,IsFirstReview,EXPERIENCE,Human,testing and code review
+p73,Role(_) of the participant,EXPERIENCE,Human,testing and code review
+p73,How often(_) they perform code review,EXPERIENCE,Human,testing and code review
+p73,How often(_) they program,EXPERIENCE,Human,testing and code review
+p73,Years of experience(_) as professional developer,EXPERIENCE,Human,testing and code review
+p73,Years of experience(_) in Java,EXPERIENCE,Human,testing and code review
+p73,Hours the participant worked before performing the experiment,EXPERIENCE,Human,testing and code review
+p49,# impact files,FILES,Product,CI and review
+p67,Changed Files (#of files changed),FILES,Product,CI and review
+p03,# files,FILES,Product,predict acceptance 
+p27,file,FILES,Product,predict acceptance 
+pj2,changed file num,FILES,Product,predict acceptance 
+pj2,file added num,FILES,Product,predict acceptance 
+pj2,file deleted num,FILES,Product,predict acceptance 
+pj2,modify entropy,FILES,Product,predict acceptance 
+p06,entropy,FILES,Product,quality assurance
+p10,entropy,FILES,Product,quality assurance
+p28,change entropy,FILES,Product,quality assurance
+p33,# files,FILES,Product,quality assurance
+p57,Size of patch (number of files),FILES,Product,quality assurance
+p70,#modified files,FILES,Product,quality assurance
+p70,distribution of changes across all files,FILES,Product,quality assurance
+pj6,entropy,FILES,Product,quality assurance
+pj6,files ,FILES,Product,quality assurance
+pj9,entropy,FILES,Product,quality assurance
+pj9,# modified files,FILES,Product,quality assurance
+pj15,files_changed,FILES,Product,review participation
+pj3,# modified files,FILES,Product,review participation
+pj3,entropy,FILES,Product,review participation
+p15,# of changed files,FILES,Product,review process
+p29,Number of Changed Files,FILES,Product,review process prediction
+p52,# edited files,FILES,Product,review process prediction
+p52,# edits for competing files,FILES,Product,review process prediction
+p80,Is .csproj file being edited,FILES,Product,review process prediction
+p80,Number of files changed,FILES,Product,review process prediction
+pj30,files changed,FILES,Product,review process prediction
+pj30,commits files changed,FILES,Product,review process prediction
+p16,Files Changed,FILES,Product,"technical, non-technical and code review"
+pj2,file type num,LANGUAGE,Product,predict acceptance 
+pj2,language num,LANGUAGE,Product,predict acceptance 
+p80,Number of distinct file types,LANGUAGE,Product,review process prediction
+p80,Setting or config. change,LANGUAGE,Product,review process prediction
+p49,stack trace attached,LOG,Process,CI and review
+p67,Has Test Code (whether test cases are included in PR),MODULE,Product,CI and review
+p60,Component (top-level module),MODULE,Product,non-technical and code review
+p27,Is patch part of larger patch set?,MODULE,Product,predict acceptance 
+p27,subsystems,MODULE,Product,predict acceptance 
+pj2,directory num,MODULE,Product,predict acceptance 
+pj2,subsystem num,MODULE,Product,predict acceptance 
+p33,module,MODULE,Product,quality assurance
+p70,#modified subsystems,MODULE,Product,quality assurance
+p70,#modified directories,MODULE,Product,quality assurance
+pj6,directories,MODULE,Product,quality assurance
+pj6,subsystem,MODULE,Product,quality assurance
+pj3,# modified dir,MODULE,Product,review participation
+p15,test coverage,MODULE,Product,review process
+p29,Package,MODULE,Product,review process prediction
+p80,Number of paths touched,MODULE,Product,review process prediction
+pj30,test inclusion,MODULE,Product,review process prediction
+p16,Test Inclusion,MODULE,Product,"technical, non-technical and code review"
+pj4,component,MODULE,Product,"technical, non-technical and code review"
+p04,Is test,MODULE,Process,testing and code review
+pj9,# modified directories,MODULES,Product,quality assurance
+pj9,# modified subsystems,MODULES,Product,quality assurance
+p67,Last Comm. Mention (whether the last commit mentions a user),OWNERSHIP,Human,CI and review
+p27,#commiter for the chunk of patch,OWNERSHIP,Human,predict acceptance 
+p27,Is commiter name same as CC reviewer,OWNERSHIP,Human,predict acceptance 
+pj2,file_developer_num (#developers change files),OWNERSHIP,Human,predict acceptance 
+p06,#author,OWNERSHIP,Human,quality assurance
+p06,Top TCO (traditional code ownership value of the developer),OWNERSHIP,Human,quality assurance
+p06,Top RSO (review-specific ownership value of the developer),OWNERSHIP,Human,quality assurance
+p10,Major,OWNERSHIP,Human,quality assurance
+p10,Minor,OWNERSHIP,Human,quality assurance
+p10,Ownership,OWNERSHIP,Human,quality assurance
+p10,self-approval,OWNERSHIP,Human,quality assurance
+p10,self-verify,OWNERSHIP,Human,quality assurance
+p10,Total,OWNERSHIP,Human,quality assurance
+p23,#authors,OWNERSHIP,Human,quality assurance
+p28,auther ownership,OWNERSHIP,Human,quality assurance
+p28,major authors,OWNERSHIP,Human,quality assurance
+p28,minor authors,OWNERSHIP,Human,quality assurance
+p33,writers prev patch,OWNERSHIP,Human,quality assurance
+p57,Ave interaction of developer with components in patch,Ownership,Human,quality assurance
+p57,Ave interaction of reviewer with components in patch,Ownership,Human,quality assurance
+p57,Ave recency of interaction of developer withe components in patch,Ownership,Human,quality assurance
+p57,Ave recency of interaction of reviewer with components in patch,Ownership,Human,quality assurance
+p64,Author ownership,OWNERSHIP,Human,quality assurance
+p70,"avg, #developers that changed the files before",OWNERSHIP,Human,quality assurance
+pj5,author ownership,OWNERSHIP,Human,quality assurance
+pj5,major authors,OWNERSHIP,Human,quality assurance
+pj5,minor authors,OWNERSHIP,Human,quality assurance
+pj5,total authors,OWNERSHIP,Human,quality assurance
+pj15,requester_pull,OWNERSHIP,Human,review participation
+pj15,first_pull,OWNERSHIP,Human,review participation
+pj3,# of authors,OWNERSHIP,Human,review participation
+p21,code ownership,OWNERSHIP,Human,review process comments
+p21,code review ship,OWNERSHIP,Human,review process comments
+p29,Author,OWNERSHIP,Human,review process prediction
+p04,author ownership,OWNERSHIP,Human,testing and code review
+p04,Major authors,OWNERSHIP,Human,testing and code review
+p04,Minor authors,OWNERSHIP,Human,testing and code review
+p04,total authors,OWNERSHIP,Human,testing and code review
+p03,# commenting developers,PARTICIPANT,Human,predict acceptance 
+p03,# in-code commenting devs,PARTICIPANT,Human,predict acceptance 
+p27,#reviewers,PARTICIPANT,Human,predict acceptance 
+p06,#contributor,PARTICIPANT,Human,quality assurance
+p06,#reviewer,PARTICIPANT,Human,quality assurance
+p06,"Proportion of minor author, major reviewer",PARTICIPANT,Human,quality assurance
+p06,"Proportion of major author,  minor reviewer",PARTICIPANT,Human,quality assurance
+p06,"Proportion of minor author, minor reviewer",PARTICIPANT,Human,quality assurance
+p06,"Proportion of major author,  major reviewer",PARTICIPANT,Human,quality assurance
+p10,In-house,PARTICIPANT,Human,quality assurance
+p23,#reviewers,PARTICIPANT,Human,quality assurance
+p23,non author voters,PARTICIPANT,Human,quality assurance
+p28,total authors,PARTICIPANT,Human,quality assurance
+p57,number of reviewers,PARTICIPANT,Human,quality assurance
+p64,Total authors,PARTICIPANT,Human,quality assurance
+p64,Minor authors,PARTICIPANT,Human,quality assurance
+p64,Major authors,PARTICIPANT,Human,quality assurance
+pj6,developers,PARTICIPANT,Human,quality assurance
+pj6,reviewers,PARTICIPANT,Human,quality assurance
+pj9,nDev,PARTICIPANT,Human,quality assurance
+pj15,reviewer_pull,PARTICIPANT,Human,review participation
+pj28,Review Participation Rate,PARTICIPANT,Human,review participation
+pj28,Number of Received Review Invitations,PARTICIPANT,Human,review participation
+p62,Number of Reviewers,PARTICIPANT,Human,review process
+p29,Reviewer,PARTICIPANT,Human,review process prediction
+p80,Number of reviewers,PARTICIPANT,Human,review process prediction
+pj30,prior interaction,PARTICIPANT,Human,review process prediction
+p16,Prior Interaction,PARTICIPANT,Human,"technical, non-technical and code review"
+p33,# dev on CC,PARTICIPANTS,Human,quality assurance
+p33,# dev who comment,PARTICIPANTS,Human,quality assurance
+p15,# of participants,PARTICIPANTS,Human,review process
+p60,Organization,project,Others,non-technical and code review
+p03,PR author's affiliation,project,Others,predict acceptance 
+p16,Followers,project,Others,"technical, non-technical and code review"
+p16,Repo Maturity,project,Others,"technical, non-technical and code review"
+p16,Stars,project,Othes,"technical, non-technical and code review"
+pj4,organization,project,Others,"technical, non-technical and code review"
+p15,team_size (# core team members during the last 3 months),project related,Others,review process
+p15,perc_ext_contribs (ratio of commits from external members),project related,Others,review process
+p15,commits_files_touched (# commits on files touched last 3mons),project related,Others,review process
+p49,project.queue rank,QUEUE,Process,CI and review
+p60,Review Queue (number of pending review requests),QUEUE,Process,non-technical and code review
+p33,review queue,QUEUE,Process,quality assurance
+p62,Review Queue,QUEUE,Process,review process
+p80,Number of active PRs at this time,QUEUE,Process,review process prediction
+pj4,review queue,QUEUE,Process,"technical, non-technical and code review"
+p49,# activities,REVISIONS,Product,CI and review
+p49,commits per PR,REVISIONS,Product,CI and review
+p67,Comits (# of commits included in the PR),REVISIONS,Process,CI and review
+p03,# commits,REVISIONS,Product,predict acceptance 
+p27,comit_sub (accepted patches/subsystem),REVISIONS,Product,predict acceptance 
+p27,missed,REVISIONS,Product,predict acceptance 
+p27,version,REVISIONS,Product,predict acceptance 
+pj2,changes_files_modified (# times files changed),REVISIONS,Product,predict acceptance 
+p23,review iterations,REVISIONS,Product,quality assurance
+p28,Proportion of reviewed changes,REVISIONS,Product,quality assurance
+p28,Proportion of reviewer churn,REVISIONS,Product,quality assurance
+p64,Proportion of reviewed changes,REVISIONS,Product,quality assurance
+p64,Proportion of reviewed churn,REVISIONS,Product,quality assurance
+p70,#patch revisions,REVISIONS,Product,quality assurance
+p70,#unique changes to modified files,REVISIONS,Product,quality assurance
+pj6,iterations,REVISIONS,Product,quality assurance
+pj9,# changes to modified files,REVISIONS,Product,quality assurance
+pj15,commits_pull,REVISIONS,Product,review participation
+p15,# of commits,REVISIONS,Product,review process
+p62,Median review rate (number of lines of codes for each review),REVISIONS,Process,review process
+p62,Number of Revisions,REVISIONS,Product,review process
+p52,# of commits,REVISIONS,Product,review process prediction
+p80,Average age of PRs with similar paths changed,REVISIONS,Product,review process prediction
+pj30,num commits,REVISIONS,Product,review process prediction
+p49,merge time,TEMPORAL,Process,CI and review
+p67,Age (PR duration from its creation),TEMPORAL,Process,CI and review
+p27,response time,TEMPORAL,Process,predict acceptance 
+p27,first response time,TEMPORAL,Process,predict acceptance 
+p27,integrate time,TEMPORAL,Process,predict acceptance 
+p27,reviewing time,TEMPORAL,Process,predict acceptance 
+p27,stage time,TEMPORAL,Process,predict acceptance 
+p27,total time,TEMPORAL,Process,predict acceptance 
+p10,review_window,TEMPORAL,Process,quality assurance
+p23,response delay,TEMPORAL,Process,quality assurance
+p23,review rate,TEMPORAL,Process,quality assurance
+p23,review time,TEMPORAL,Process,quality assurance
+p57,Patch review time duration,TEMPORAL,Process,quality assurance
+p64,Typical review window,TEMPORAL,Process,quality assurance
+p70,review time,TEMPORAL,Process,quality assurance
+p70,issue fix time,TEMPORAL,Process,quality assurance
+p70,average discussion lag,TEMPORAL,Process,quality assurance
+p70,average time before the last change,TEMPORAL,Process,quality assurance
+pj6,age,TEMPORAL,Process,quality assurance
+pj6,review window,TEMPORAL,Process,quality assurance
+pj9,age,TEMPORAL,Process,quality assurance
+pj3,# days since last modification,TEMPORAL,Process,review participation
+pj3,feedback delay of prior patches,TEMPORAL,Process,review participation
+p62,Review Length (time),TEMPORAL,Process,review process
+p62,Response Delay (delay after a patch review request,TEMPORAL,Process,review process
+p73,TotalDuration,TEMPORAL,Process,testing and code review
+p49,merge workload,WORKLOAD,Human,CI and review
+pj28,Number of Concurrent Reviews,WORKLOAD,Human,review participation
+pj28,Number of Remaining Reviews,WORKLOAD,Human,review participation
+pj3,directory workload,WORKLOAD,Human,review participation
+pj3,overall workload,WORKLOAD,Human,review participation
+p67,Intra-Branch (whether source and target PR match),Others,Others,CI and review
+p33,# prev review on a bug,Others,Others,quality assurance
+p33,super review,Others,Others,quality assurance
+p64,A measure of the volatility of the change.,Others,Others,quality assurance
+pj15,developer_type,Others,Others,review participation
+pj15,reviewer_follows_requester,Others,Others,review participation
+pj15,location,Others,Others,review participation
+pj28,Core Member Status,Others,Others,review participation
+pj28,Median Number of Comments,COMMENTS,Process,review participation
+p80,Day of the week,Others,Others,review process prediction
+p80,Is PR created during Business Hours?,Others,Others,review process prediction
+p73,Patch,Others,Others,testing and code review
