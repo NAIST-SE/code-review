@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Dataset
-permalink: /dataset/
+title: Metric
+permalink: /metric/
 ---
 <table>
   <tbody>
@@ -18,27 +18,25 @@ permalink: /dataset/
 </table>
 <table id="allPapers">
   <thead><th onclick="sortTable(0)">Paper</th>
-         <th onclick="sortTable(1)">Link URL</th>
-         <th onclick="sortTable(2)">Script to Collect Data</th>
-         <th onclick="sortTable(3)">Host</th>
-         <th onclick="sortTable(4)">Accessible</th>
+         <th onclick="sortTable(1)">Metric</th>
+         <th onclick="sortTable(2)">Metric Set</th>
+         <th onclick="sortTable(4)">Topic</th>
 
          </thead><tbody>
-  {% assign datasetByTitle = site.dataset | sort: "title" | group_by: "title" %}
-  {% for datasets in datasetByTitle %}
-  {% for dataset in datasets.items %}
+  {% assign metricsByTitle = site.metricses | sort: "title" | group_by: "title" %}
+  {% for metricses in metricsByTitle %}
+  {% for metrics in metricses.items %}
   <tr>
-    <td><a href="{{site.baseurl}}/publications/{{ dataset.publication_id }}">{{dataset.title}}</a>
+    <td><a href="{{site.baseurl}}/publications/{{ metrics.publication_id }}">{{metrics.title}}</a>
       <!-- <span class="externallinks">
-        &nbsp;<a href='http://scholar.google.com/scholar?q={{ dataset.title }}' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-        <a href='https://www.semanticscholar.org/search?q={{ dataset.title }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-        <a href='http://academic.microsoft.com/#/search?iq={{ dataset.title | uri_escape }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+        &nbsp;<a href='http://scholar.google.com/scholar?q={{ metrics.title }}' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+        <a href='https://www.semanticscholar.org/search?q={{ metrics.title }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+        <a href='http://academic.microsoft.com/#/search?iq={{ metrics.title | uri_escape }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
       </span> -->
     </td>
-    <td><a href="{{ dataset.link }}">{{ dataset.link }}</a></td>
-    <td><a href="{{ dataset.source }}">{{ dataset.source }}</a></td>
-    <td>{{ dataset.host }}</td>
-    <td>{{ dataset.available }}</td>
+    <td>{{ metrics.metric }}</a></td>
+    <td>{{ metrics.metric_set }}</a></td>
+    <td>{{ metrics.topic }}</td>
   </tr>
   {% endfor %}
   {% endfor %}
